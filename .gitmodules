@@ -1,0 +1,9 @@
+[submodule "sim/FFT/C2S2-Module-Library"]
+	path = sim/FFT/C2S2-Module-Library
+	url = https://github.com/cornellcustomsiliconsystems/C2S2-Module-Library.git
+[submodule "sim/FFT/FFT-Twiddle_Generator"]
+	path = sim/FFT/FFT-Twiddle_Generator
+	url = https://github.com/cornellcustomsiliconsystems/FFT-Twiddle_Generator.git
+[submodule "sim/FFT/FFT-Crossbar"]
+	path = sim/FFT/FFT-Crossbar
+	url = https://github.com/cornellcustomsiliconsystems/FFT-Crossbar.git

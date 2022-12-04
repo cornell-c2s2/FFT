@@ -1,6 +1,6 @@
 {
     "ImportPassName": "VerilogVerilatorImportPass",
-    "verilog_hash": "cf5a49f69dd698dded52b231745e70b5b0ce881617271b62bbfe1a9fd911f5823cd6ad6857bd1d0d038f4e30137335402d40909172e39cc5601f4c5874049ebb",
+    "verilog_hash": "230d737c3b205e0eea5387033e1efc90a8ec9b64b03b603a0e8b4a7ac439584e2c7d4df14130c25608687412c1faccff200b247aa640c35f9af5f2e71034a006",
     "vl_line_trace": false,
     "vl_coverage": false,
     "vl_line_coverage": false,
@@ -16,7 +16,7 @@
         "WIDTH"
     ],
     "vl_xinit": "zeros",
-    "vl_trace": true,
+    "vl_trace": false,
     "vl_trace_timescale": "10ps",
     "vl_trace_cycle_time": 100,
     "vl_trace_on_demand": false,

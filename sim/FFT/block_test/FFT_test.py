@@ -10,7 +10,7 @@ random.seed(0xdeadbeef)
 from pymtl3 import *
 from pymtl3.stdlib import stream
 from pymtl3.stdlib.test_utils import mk_test_case_table, run_sim
-from FFT.FFTTestHarnessRTL import FFTTestHarnessVRTL
+from FFTTestHarnessRTL import FFTTestHarnessVRTL
 
 #-------------------------------------------------------------------------
 # TestHarness

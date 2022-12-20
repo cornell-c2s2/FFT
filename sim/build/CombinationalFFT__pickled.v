@@ -5,7 +5,7 @@
 
 // PyMTL VerilogPlaceholder FFTTestHarnessVRTL Definition
 // Full name: FFTTestHarnessVRTL__BIT_WIDTH_32__DECIMAL_PT_16__N_SAMPLES_8
-// At /home/will/Desktop/FFT/sim/FFT/FFTTestHarnessRTL.py
+// At /home/almund/git/c2s2/FFT/sim/FFT/FFTTestHarnessRTL.py
 
 //***********************************************************
 // Pickled source file of placeholder FFTTestHarnessVRTL__BIT_WIDTH_32__DECIMAL_PT_16__N_SAMPLES_8
@@ -165,10 +165,10 @@ endmodule
 `line 1 "./C2S2-Module-Library/butterfly/sim/butterfly/ButterflyVRTL.v" 0
 `ifndef PROJECT_BUTTERFLY_V
 `define PROJECT_BUTTERFLY_V
-`line 1 "C2S2-Module-Library/lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
+`line 1 "../../../lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
 `ifndef FIXED_POINT_ITERATIVE_COMPLEX_MULTIPLIER
 `define FIXED_POINT_ITERATIVE_COMPLEX_MULTIPLIER
-`line 1 "C2S2-Module-Library/lib/sim/fixedpt-iterative-multiplier/FpmultVRTL.v" 0
+`line 1 "../../../lib/sim/fixedpt-iterative-multiplier/FpmultVRTL.v" 0
 `ifndef FIXED_POINT_ITERATIVE_MULTIPLIER
 `define FIXED_POINT_ITERATIVE_MULTIPLIER
 
@@ -271,7 +271,7 @@ module FpmultVRTL
 endmodule
 `endif
 
-`line 4 "C2S2-Module-Library/lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
+`line 4 "../../../lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
 
 module FpcmultVRTL
 # (
@@ -375,7 +375,8 @@ endmodule
 module ButterflyVRTL
 #(
 	parameter n = 32,
-	parameter d = 16
+	parameter d = 16,
+	parameter mult = 1 // 1 if we include the multiplication of w (saves area as w is usually 1)
 ) (clk, reset, recv_val, recv_rdy, send_val, send_rdy, ar, ac, br, bc, wr, wc, cr, cc, dr, dc);
 	/* performs the butterfly operation, equivalent to doing
 		| 1  w |   | a |   | c |
@@ -391,20 +392,38 @@ module ButterflyVRTL
 	logic mul_rdy;
 	logic [n-1:0] tr, tc;
 
-	FpcmultVRTL #(.n(n), .d(d)) mul ( // ar * br
-		.clk(clk),
-		.reset(reset),
-		.ar(br),
-		.ac(bc),
-		.br(wr),
-		.bc(wc),
-		.cr(tr),
-		.cc(tc),
-		.recv_val(recv_val),
-		.recv_rdy(),
-		.send_val(mul_rdy),
-		.send_rdy(1'b1)
-	);
+	if ( mult == 1 ) begin
+		FpcmultVRTL #(.n(n), .d(d)) mul ( // ar * br
+			.clk(clk),
+			.reset(reset),
+			.ar(br),
+			.ac(bc),
+			.br(wr),
+			.bc(wc),
+			.cr(tr),
+			.cc(tc),
+			.recv_val(recv_val),
+			.recv_rdy(),
+			.send_val(mul_rdy),
+			.send_rdy(1'b1)
+		);
+	end else begin
+		always @(posedge clk) begin
+			if (reset) begin
+				mul_rdy <= 0;
+			end
+
+			if (~mul_rdy & recv_val) begin
+				mul_rdy <= 1;
+				tr <= br;
+				tc <= bc;
+			end
+
+			if (mul_rdy) begin
+				mul_rdy <= 0;
+			end
+		end
+	end
 
 	always @(posedge clk) begin
 		if (reset) begin

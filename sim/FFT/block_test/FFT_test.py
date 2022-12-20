@@ -56,20 +56,27 @@ def msg(array, bitwidth,fft_size): #Array of ints
 # Test Case: small positive * positive
 #----------------------------------------------------------------------
 
-def small_fft(bits, fft_size):
+def two_point_dc(bits, fft_size):
   return [
   0x00010000_00010000, 0x00000000_00020000
   ]
 
-def small_msgs_2(bits, fft_size):
+def eight_point_dc(bits, fft_size):
   return [
   0x00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000, 0x00000000_00000000_00000000_00000000_00000000_00000000_00000000_00080000
   ] 
 
-def small_msgs(bits, fft_size):
+def eight_point_offset_sine(bits, fft_size):
   return [
   0x00010000_00000000_00010000_00000000_00010000_00000000_00010000_00000000, 0x00000000_00000000_00000000_fffc0000_00000000_00000000_00000000_00040000
   ] 
+
+def eight_point_two_samples(bits, fft_size):
+  return [
+  0x00010000_00000000_00010000_00000000_00010000_00000000_00010000_00000000, 0x00000000_00000000_00000000_fffc0000_00000000_00000000_00000000_00040000,
+  0x00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000, 0x00000000_00000000_00000000_00000000_00000000_00000000_00000000_00080000
+  ] 
+
 
 
 #----------------------------------------------------------------------
@@ -79,9 +86,9 @@ def small_msgs(bits, fft_size):
 
 test_case_table = mk_test_case_table([
   (                        "msgs                src_delay sink_delay BIT_WIDTH DECIMAL_PT N_SAMPLES"),
-  [ "small_fft_32_16_2",      small_fft,         0,        0,         32,        16,       2         ],
-  [ "small_fft_32_16_2",      small_msgs_2,       0,        0,         32,        16,       8         ],
-  [ "small_msgs_32_16_8",     small_msgs,         0,        0,         32,        16,       8         ],
+  [ "small_fft_32_16_2",      two_point_dc,         0,        0,         32,        16,       2         ],
+  [ "small_fft_32_16_2",      eight_point_dc,       0,        0,         32,        16,       8         ],
+  [ "small_msgs_32_16_8",     eight_point_two_samples,         0,        0,         32,        16,       8         ],
 
 ])
 #-------------------------------------------------------------------------

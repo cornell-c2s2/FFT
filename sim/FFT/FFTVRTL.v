@@ -56,12 +56,12 @@ module FFTVRTL
     always @(*) begin
         int i;
         for(i = 0; i < N_SAMPLES; i++) begin
-            assign complex_msg[0][i] = 0;
+            complex_msg[0][i] = 0;
             
-            assign val_in[0][i] = recv_val;
-            assign imm[i] = rdy_in[0][i];
+            val_in[0][i] = recv_val;
+            imm[i] = rdy_in[0][i];
         end
-        assign recv_rdy = &imm;
+        recv_rdy = &imm;
     end
     
     generate
@@ -113,13 +113,13 @@ module FFTVRTL
         int i;
         for(i = 0; i < N_SAMPLES; i++) begin
 
-            assign imm2[i] = val_in[$clog2(N_SAMPLES)][i];
-            assign rdy_in[$clog2(N_SAMPLES)][i] = send_rdy;
+            imm2[i] = val_in[$clog2(N_SAMPLES)][i];
+            rdy_in[$clog2(N_SAMPLES)][i] = send_rdy;
 
             send_msg[i] = real_msg[$clog2(N_SAMPLES)][i];
 
         end
-        assign send_val = &imm2;
+        send_val = &imm2;
     end
 
 

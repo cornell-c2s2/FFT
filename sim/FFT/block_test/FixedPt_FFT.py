@@ -16,6 +16,7 @@ def cooley_tukey_fft(x, NUM_SAMPLES):
         X.append(np.complex(x[k] * window, 0))
     fft_rec(X)
     return X
+
 def fft_rec(X):
     N = len(X)
     if N <= 1:

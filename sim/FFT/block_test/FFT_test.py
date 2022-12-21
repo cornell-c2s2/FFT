@@ -12,6 +12,8 @@ from pymtl3.stdlib import stream
 from pymtl3.stdlib.test_utils import mk_test_case_table, run_sim
 from FFT.FFTTestHarnessRTL import FFTTestHarnessVRTL
 from .FixedPt_FFT import cooley_tukey_fft
+from fxpmath import Fxp
+
 
 #-------------------------------------------------------------------------
 # TestHarness
@@ -49,11 +51,21 @@ def packed_msg(array, bitwidth, fft_size): #Array of ints
   output = output[0:bitwidth * fft_size]
   
   return output
-    
+  
+
+"""Creates a singular FFT call and resposne """
 def fft_call_response(array_of_sample_integers, bitwidth, fft_size):
   array = []
-  array.append(packed_msg(array_of_sample_integers, bitwidth, fft_size))
-  array.append(packed_msg(cooley_tukey_fft(array_of_sample_integers, fft_size), bitwidth, fft_size))
+  output_array_unpacked = cooley_tukey_fft(array_of_sample_integers, fft_size)
+  print(output_array_unpacked)
+  input_array  = []
+  output_array = []
+  for n in range(fft_size):
+    input_array.append( int(abs(array_of_sample_integers[n])))
+    output_array.append(int(abs(output_array_unpacked[n])))
+
+  array.append(packed_msg(input_array          , bitwidth, fft_size))
+  array.append(packed_msg(output_array_unpacked, bitwidth, fft_size))
 
   return array
 
@@ -62,40 +74,42 @@ def fft_call_response(array_of_sample_integers, bitwidth, fft_size):
 # Test Case: small positive * positive
 #----------------------------------------------------------------------
 
-def two_point_dc(bits, fft_size):
+def two_point_dc(bits, fft_size, frac_bits):
   return [
   0x00010000_00010000, 0x00000000_00020000
   ]
 
-def two_point_dc_generated(bits, fft_size):
+def two_point_dc_generated(bits, fft_size, frac_bits):
 
-  return fft_call_response([1 << 16, 1 << 16], bits, fft_size)
+  return fft_call_response([Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits ),Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits )], bits, fft_size)
 
-def eight_point_dc(bits, fft_size):
+def eight_point_dc(bits, fft_size, frac_bits):
   return [
   0x00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000, 0x00000000_00000000_00000000_00000000_00000000_00000000_00000000_00080000
   ] 
 
-def eight_point_offset_sine(bits, fft_size):
+def eight_point_offset_sine(bits, fft_size, frac_bits):
   return [
   0x00010000_00000000_00010000_00000000_00010000_00000000_00010000_00000000, 0x00000000_00000000_00000000_fffc0000_00000000_00000000_00000000_00040000
   ]
 
-def two_point_two_samples(bits, fft_size):
+def two_point_two_samples(bits, fft_size, frac_bits):
   return [
   0x00010000_00010000, 0x00000000_00020000,
   0x00000000_00010000, 0x00010000_FFFF0000
   ]
 
-def eight_point_two_samples(bits, fft_size):
+def eight_point_two_samples(bits, fft_size, frac_bits):
   return [
   0x00010000_00000000_00010000_00000000_00010000_00000000_00010000_00000000, 0x00000000_00000000_00000000_fffc0000_00000000_00000000_00000000_00040000,
   0x00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000, 0x00000000_00000000_00000000_00000000_00000000_00000000_00000000_00080000
   ] 
 
-def two_point_dc_random(bits, fft_size):
-
-  return fft_call_response([1 << 16, 1 << 16], bits, fft_size)
+def random_signal(bits, fft_size, frac_bits):
+  signal = []
+  for i in range(fft_size):
+    signal.append(Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits )) 
+  return fft_call_response( signal, bits, fft_size)
 
 
 
@@ -110,8 +124,11 @@ test_case_table = mk_test_case_table([
   [ "two_point_dc_generated",  two_point_dc_generated,  0,        0,         32,        16,       2         ],
   [ "eight_point_dc",          eight_point_dc,          0,        0,         32,        16,       8         ],
   [ "eight_point_offset_sine", eight_point_offset_sine, 0,        0,         32,        16,       8         ],
+  [ "two_point_random",        random_signal,           0,        0,         32,        16,       2         ],
+  [ "eight_point_random",      random_signal,           0,        0,         32,        16,       8         ],
   [ "two_point_two_samples",   two_point_two_samples,   0,        0,         32,        16,       2         ],
   [ "eight_point_two_ops",     eight_point_two_samples, 0,        0,         32,        16,       8         ],
+  
 
 ])
 #-------------------------------------------------------------------------
@@ -123,13 +140,16 @@ def test( test_params, cmdline_opts ):
 
   th = TestHarness( FFTTestHarnessVRTL(test_params.BIT_WIDTH, test_params.DECIMAL_PT,test_params.N_SAMPLES), test_params.BIT_WIDTH, test_params.DECIMAL_PT, test_params.N_SAMPLES )
 
+  print(test_params.msgs(test_params.BIT_WIDTH, test_params.N_SAMPLES, test_params.DECIMAL_PT)[::2])
+  print(test_params.msgs(test_params.BIT_WIDTH, test_params.N_SAMPLES, test_params.DECIMAL_PT)[1::2])
+
   th.set_param("top.src.construct",
-    msgs=test_params.msgs(test_params.BIT_WIDTH, test_params.N_SAMPLES)[::2],
+    msgs=test_params.msgs(test_params.BIT_WIDTH, test_params.N_SAMPLES, test_params.DECIMAL_PT)[::2],
     initial_delay=test_params.src_delay+3,
     interval_delay=test_params.src_delay )
 
   th.set_param("top.sink.construct",
-    msgs=test_params.msgs(test_params.BIT_WIDTH, test_params.N_SAMPLES)[1::2],
+    msgs=test_params.msgs(test_params.BIT_WIDTH, test_params.N_SAMPLES, test_params.DECIMAL_PT)[1::2],
     initial_delay=test_params.sink_delay+3,
     interval_delay=test_params.sink_delay )
 

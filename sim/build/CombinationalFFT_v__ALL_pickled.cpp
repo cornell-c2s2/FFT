@@ -1,5 +1,8 @@
 #include "CombinationalFFT_v.cpp"
 #include "obj_dir_CombinationalFFT/VCombinationalFFT.cpp"
 #include "obj_dir_CombinationalFFT/VCombinationalFFT_stateI__N20_D10.cpp"
+#include "obj_dir_CombinationalFFT/VCombinationalFFT__Trace.cpp"
 #include "/usr/share/verilator/include/verilated.cpp"
+#include "/usr/share/verilator/include/verilated_vcd_c.cpp"
 #include "obj_dir_CombinationalFFT/VCombinationalFFT__Syms.cpp"
+#include "obj_dir_CombinationalFFT/VCombinationalFFT__Trace__Slow.cpp"

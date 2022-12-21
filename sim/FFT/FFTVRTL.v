@@ -61,7 +61,7 @@ module FFTVRTL
             val_in[0][i] = recv_val;
             imm[i] = rdy_in[0][i];
         end
-        recv_rdy = &imm;
+        recv_rdy = &imm & !send_rdy;
     end
     
     generate

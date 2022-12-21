@@ -5,7 +5,7 @@
 
 // PyMTL VerilogPlaceholder FFTTestHarnessVRTL Definition
 // Full name: FFTTestHarnessVRTL__BIT_WIDTH_32__DECIMAL_PT_16__N_SAMPLES_8
-// At /home/almund/git/c2s2/FFT/sim/FFT/FFTTestHarnessRTL.py
+// At /home/will/Desktop/FFT/sim/FFT/FFTTestHarnessRTL.py
 
 //***********************************************************
 // Pickled source file of placeholder FFTTestHarnessVRTL__BIT_WIDTH_32__DECIMAL_PT_16__N_SAMPLES_8
@@ -165,10 +165,10 @@ endmodule
 `line 1 "./C2S2-Module-Library/butterfly/sim/butterfly/ButterflyVRTL.v" 0
 `ifndef PROJECT_BUTTERFLY_V
 `define PROJECT_BUTTERFLY_V
-`line 1 "../../../lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
+`line 1 "C2S2-Module-Library/lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
 `ifndef FIXED_POINT_ITERATIVE_COMPLEX_MULTIPLIER
 `define FIXED_POINT_ITERATIVE_COMPLEX_MULTIPLIER
-`line 1 "../../../lib/sim/fixedpt-iterative-multiplier/FpmultVRTL.v" 0
+`line 1 "C2S2-Module-Library/lib/sim/fixedpt-iterative-multiplier/FpmultVRTL.v" 0
 `ifndef FIXED_POINT_ITERATIVE_MULTIPLIER
 `define FIXED_POINT_ITERATIVE_MULTIPLIER
 
@@ -271,7 +271,7 @@ module FpmultVRTL
 endmodule
 `endif
 
-`line 4 "../../../lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
+`line 4 "C2S2-Module-Library/lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
 
 module FpcmultVRTL
 # (
@@ -508,12 +508,12 @@ module FFTVRTL
     always @(*) begin
         int i;
         for(i = 0; i < N_SAMPLES; i++) begin
-            assign complex_msg[0][i] = 0;
+            complex_msg[0][i] = 0;
             
-            assign val_in[0][i] = recv_val;
-            assign imm[i] = rdy_in[0][i];
+            val_in[0][i] = recv_val;
+            imm[i] = rdy_in[0][i];
         end
-        assign recv_rdy = &imm;
+        recv_rdy = &imm & !send_rdy;
     end
     
     generate
@@ -565,13 +565,13 @@ module FFTVRTL
         int i;
         for(i = 0; i < N_SAMPLES; i++) begin
 
-            assign imm2[i] = val_in[$clog2(N_SAMPLES)][i];
-            assign rdy_in[$clog2(N_SAMPLES)][i] = send_rdy;
+            imm2[i] = val_in[$clog2(N_SAMPLES)][i];
+            rdy_in[$clog2(N_SAMPLES)][i] = send_rdy;
 
             send_msg[i] = real_msg[$clog2(N_SAMPLES)][i];
 
         end
-        assign send_val = &imm2;
+        send_val = &imm2;
     end
 
 

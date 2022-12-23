@@ -13,7 +13,7 @@ def cooley_tukey_fft(x, NUM_SAMPLES):
     X = list()
     for k in range(0, NUM_SAMPLES):
         window = 1 # np.sin(np.pi * (k+0.5)/N)**2
-        X.append(np.complex(x[k] * window, 0))
+        X.append(complex(x[k] * window, 0))
     fft_rec(X)
     return X
 
@@ -26,6 +26,6 @@ def fft_rec(X):
     fft_rec(even)
     fft_rec(odd)
     for k in range(0, N//2):
-        t = np.exp(np.complex(0, -2 * np.pi * k / N)) * odd[k]
+        t = np.exp(complex(0, -2 * np.pi * k / N)) * odd[k]
         X[k] = even[k] + t
         X[N//2 + k] = even[k] - t

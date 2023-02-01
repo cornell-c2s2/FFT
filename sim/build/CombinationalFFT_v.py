@@ -101,9 +101,9 @@ class CombinationalFFT( Component ):
   def construct( s, *args, **kwargs ):
     # Set up the VCD file name
     verilator_vcd_file = ""
-    if 1:
-      if True:
-        verilator_vcd_file = "FFT.block_test.FFT_test__test_eight_point_two_ops_top_fft.verilator1.vcd"
+    if 0:
+      if False:
+        verilator_vcd_file = ".verilator1.vcd"
       else:
         verilator_vcd_file = "CombinationalFFT.verilator1.vcd"
 

@@ -16,7 +16,7 @@
 #define HAS_CLK 1
 
 // set to true when VCD tracing is enabled in Verilator
-#define DUMP_VCD 1
+#define DUMP_VCD 0
 
 // set to true to enable on-demand VCD dumping
 #define ON_DEMAND_DUMP_VCD 0

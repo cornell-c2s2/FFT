@@ -13,7 +13,6 @@
 //==========
 
 class VCombinationalFFT__Syms;
-class VCombinationalFFT_VerilatedVcd;
 class VCombinationalFFT_stateI__N20_D10;
 
 
@@ -275,11 +274,8 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -292,11 +288,8 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -309,17 +302,14 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-    };
-    struct {
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc;
+    };
+    struct {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
@@ -328,11 +318,8 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -345,11 +332,8 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -362,11 +346,8 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -375,17 +356,12 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act;
-    };
-    struct {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -398,11 +374,10 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
+    };
+    struct {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -415,11 +390,8 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -432,17 +404,12 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc;
-    };
-    struct {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
@@ -451,11 +418,8 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr;
@@ -468,17 +432,16 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb;
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hc;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt;
+    };
+    struct {
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt;
@@ -507,8 +470,6 @@ VL_MODULE(VCombinationalFFT) {
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha;
-    };
-    struct {
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha;
@@ -545,6 +506,8 @@ VL_MODULE(VCombinationalFFT) {
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha;
+    };
+    struct {
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha;
@@ -573,8 +536,6 @@ VL_MODULE(VCombinationalFFT) {
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    };
-    struct {
         QData/*63:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha;
         QData/*47:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
@@ -611,6 +572,8 @@ VL_MODULE(VCombinationalFFT) {
         CData/*0:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[8];
         CData/*0:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[8];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[4];
+    };
+    struct {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[4];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[8];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[8];
@@ -715,7 +678,6 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dr;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cc;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cr;
-        IData/*31:0*/ __Vm_traceActivity;
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[8];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[8];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[8];
@@ -737,7 +699,6 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[8];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary[4];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real[4];
-        IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__twiddle_generator__sine_wave_in[8];
         CData/*0:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[8];
         CData/*0:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[8];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[8];
@@ -758,10 +719,10 @@ VL_MODULE(VCombinationalFFT) {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real[4];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[8];
         CData/*0:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[8];
-    };
-    struct {
         CData/*0:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[8];
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[8];
+    };
+    struct {
         IData/*31:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[8];
         CData/*0:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[8];
         CData/*0:0*/ CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[8];
@@ -800,8 +761,6 @@ VL_MODULE(VCombinationalFFT) {
     VCombinationalFFT(const char* name = "TOP");
     /// Destroy the model; called (often implicitly) by application code
     ~VCombinationalFFT();
-    /// Trace signals in the model; called by application code
-    void trace(VerilatedVcdC* tfp, int levels, int options = 0);
     
     // API METHODS
     /// Evaluate the model.  Application must call when inputs change.
@@ -832,92 +791,6 @@ VL_MODULE(VCombinationalFFT) {
     static void _initial__TOP__4(VCombinationalFFT__Syms* __restrict vlSymsp) VL_ATTR_COLD;
     static void _sequent__TOP__2(VCombinationalFFT__Syms* __restrict vlSymsp);
     static void _settle__TOP__1(VCombinationalFFT__Syms* __restrict vlSymsp) VL_ATTR_COLD;
-    static void traceChgThis(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceChgThis__2(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceChgThis__3(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceChgThis__4(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceChgThis__5(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceChgThis__6(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceChgThis__7(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code);
-    static void traceFullThis(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
-    static void traceFullThis__1(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
-    static void traceInitThis(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
-    static void traceInitThis__1(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code) VL_ATTR_COLD;
-    static void traceInitThis__1__10(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__11(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__12(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__13(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__14(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__15(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__16(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__17(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__18(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__19(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__2(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__20(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__21(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__22(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__23(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__24(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__25(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__26(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__27(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__28(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__29(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__3(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__30(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__31(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__32(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__33(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__34(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__35(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__36(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__37(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__38(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__39(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__4(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__40(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__41(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__42(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__43(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__44(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__45(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__46(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__47(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__48(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__49(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__5(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__50(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__51(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__52(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__53(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__54(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__55(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__56(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__57(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__58(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__59(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__6(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__60(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__61(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__62(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__63(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__64(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__65(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__66(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__67(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__68(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__69(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__7(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__70(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__71(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__72(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__73(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__8(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInitThis__1__9(VCombinationalFFT__Syms* __restrict vlSymsp, VerilatedVcd* vcdp, uint32_t code, const char* scopep) VL_ATTR_COLD;
-    static void traceInit(VerilatedVcd* vcdp, void* userthis, uint32_t code);
-    static void traceFull(VerilatedVcd* vcdp, void* userthis, uint32_t code);
-    static void traceChg(VerilatedVcd* vcdp, void* userthis, uint32_t code);
 } VL_ATTR_ALIGNED(VL_CACHE_LINE_BYTES);
 
 //----------

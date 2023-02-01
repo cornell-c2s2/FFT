@@ -5,7 +5,7 @@
 
 // PyMTL VerilogPlaceholder FFTTestHarnessVRTL Definition
 // Full name: FFTTestHarnessVRTL__BIT_WIDTH_32__DECIMAL_PT_16__N_SAMPLES_8
-// At /home/will/Desktop/FFT/sim/FFT/FFTTestHarnessRTL.py
+// At /home/will/Desktop/FFT_reclone/FFT/sim/FFT/FFTTestHarnessRTL.py
 
 //***********************************************************
 // Pickled source file of placeholder FFTTestHarnessVRTL__BIT_WIDTH_32__DECIMAL_PT_16__N_SAMPLES_8
@@ -33,7 +33,7 @@
 
 `line 1 "./FFTVRTL.v" 0
 
-`line 1 "./FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/TwiddleGeneratorVRTL.v" 0
+`line 1 "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/TwiddleGeneratorVRTL.v" 0
 `ifndef TWIDDLE_GENERATOR
 `define TWIDDLE_GENERATOR
 module TwiddleGeneratorVRTL 
@@ -78,7 +78,7 @@ endmodule
 
 `endif
 `line 3 "./FFTVRTL.v" 0
-`line 1 "./FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_8VRTL.v" 0
+`line 1 "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_8VRTL.v" 0
 //SINE WAVE OF BIT_WIDTH = 32, DECIMAL_PT =  16
 //FOR FFT OF SIZE = 8
 module SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_8VRTL
@@ -95,7 +95,7 @@ module SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_8VRTL
    assign sine_wave_out[7] = -46340;
 endmodule
 `line 4 "./FFTVRTL.v" 0
-`line 1 "./FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_2VRTL.v" 0
+`line 1 "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_2VRTL.v" 0
 //SINE WAVE OF BIT_WIDTH = 32, DECIMAL_PT =  16
 //FOR FFT OF SIZE = 2
 module SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_2VRTL
@@ -106,7 +106,7 @@ module SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_2VRTL
    assign sine_wave_out[1] = 0;
 endmodule
 `line 5 "./FFTVRTL.v" 0
-`line 1 "./FFT-Crossbar/sim/CombinationalFFTCrossbar/CombinationalFFTCrossbarVRTL.v" 0
+`line 1 "FFT-Crossbar/sim/CombinationalFFTCrossbar/CombinationalFFTCrossbarVRTL.v" 0
 `ifndef COMBINATIONAL_FFT_CROSSBAR
 `define COMBINATIONAL_FFT_CROSSBAR
 
@@ -162,7 +162,7 @@ endmodule
 
 `endif
 `line 6 "./FFTVRTL.v" 0
-`line 1 "./C2S2-Module-Library/butterfly/sim/butterfly/ButterflyVRTL.v" 0
+`line 1 "C2S2-Module-Library/butterfly/sim/butterfly/ButterflyVRTL.v" 0
 `ifndef PROJECT_BUTTERFLY_V
 `define PROJECT_BUTTERFLY_V
 `line 1 "C2S2-Module-Library/lib/sim/fixedpt-iterative-complex-multiplier/FpcmultVRTL.v" 0
@@ -371,7 +371,7 @@ endmodule
 
 `endif
 
-`line 4 "./C2S2-Module-Library/butterfly/sim/butterfly/ButterflyVRTL.v" 0
+`line 4 "C2S2-Module-Library/butterfly/sim/butterfly/ButterflyVRTL.v" 0
 module ButterflyVRTL
 #(
 	parameter n = 32,
@@ -429,26 +429,20 @@ module ButterflyVRTL
 		if (reset) begin
 			send_val <= 0;
 			recv_rdy <= 1;
-		end
-
-		if (recv_val & recv_rdy) begin
+		end else if (recv_val & recv_rdy) begin
 			cr <= ar;
 			cc <= ac;
 			dr <= ar;
 			dc <= ac;
 			recv_rdy <= 0;
 			send_val <= 0;
-		end
-
-		if (~send_val & mul_rdy) begin // all multipliers are done!
+		end else if (~send_val & mul_rdy) begin // all multipliers are done!
 			cr <= cr + tr;
 			cc <= cc + tc;
 			dr <= dr - tr;
 			dc <= dc - tc;
 			send_val <= 1;
-		end
-
-		if (~recv_rdy & send_val & send_rdy) begin
+		end else if (~recv_rdy & send_val & send_rdy) begin
 			recv_rdy <= 1;
 		end
 	end

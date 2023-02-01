@@ -11,7 +11,6 @@
 VCombinationalFFT__Syms::VCombinationalFFT__Syms(VCombinationalFFT* topp, const char* namep)
     // Setup locals
     : __Vm_namep(namep)
-    , __Vm_activity(false)
     , __Vm_didInit(false)
     // Setup submodule names
     , TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI(Verilated::catName(topp->name(), "CombinationalFFT.v.comb_fft.genblk3[0].genblk1[0].bfu_in.genblk1.mul.m1.cinI"))

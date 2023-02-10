@@ -1,5 +1,0 @@
-#include "CombinationalFFT_v.cpp"
-#include "obj_dir_CombinationalFFT/VCombinationalFFT.cpp"
-#include "obj_dir_CombinationalFFT/VCombinationalFFT_stateI__N20_D10.cpp"
-#include "/usr/share/verilator/include/verilated.cpp"
-#include "obj_dir_CombinationalFFT/VCombinationalFFT__Syms.cpp"

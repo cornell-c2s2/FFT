@@ -764,7 +764,12 @@ VL_MODULE(VCombinationalFFT) {
     
     // API METHODS
     /// Evaluate the model.  Application must call when inputs change.
-    void eval();
+    void eval() { eval_step(); }
+    /// Evaluate when calling multiple units/models per time step.
+    void eval_step();
+    /// Evaluate at end of a timestep for tracing, when using eval_step().
+    /// Application must call after all eval() and before time changes.
+    void eval_end_step() {}
     /// Simulation complete, run final blocks.  Application must call on completion.
     void final();
     
@@ -775,6 +780,7 @@ VL_MODULE(VCombinationalFFT) {
     void __Vconfigure(VCombinationalFFT__Syms* symsp, bool first);
   private:
     static QData _change_request(VCombinationalFFT__Syms* __restrict vlSymsp);
+    static QData _change_request_1(VCombinationalFFT__Syms* __restrict vlSymsp);
   public:
     static void _combo__TOP__3(VCombinationalFFT__Syms* __restrict vlSymsp);
   private:

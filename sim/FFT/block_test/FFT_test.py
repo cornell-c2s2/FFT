@@ -121,15 +121,22 @@ def four_point_assorted(bits, fft_size, frac_bits):
   0x00000000_00030000_00020000_0fff0000, 0xfffc0000_00000000_fffc0000_00040000
   ]
 
-def four_point_ones_alt_twos(bits, fft_size, frac_bits):
+def four_point_dc(bits, fft_size, frac_bits):
   return [
-  0x00010000_00010000_00010000_00010000, 0x00000000_00020000_00000000_00040000
+  0x00010000_00010000_00010000_00010000, 0x00000000_00000000_00000000_00040000
   ]
 
 def four_point_one_to_four(bits, fft_size, frac_bits):
   return [
   0x00040000_00030000_00020000_00010000, 0xfffe0000_fffe0000_fffe0000_000A0000
   ]
+
+def sixteen_point_dc(bits, fft_size, frac_bits):
+  return [
+  0x00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000, 
+  0x00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00100000
+  ]
+
 ######################################################################################################################################################################
 def two_point_two_samples(bits, fft_size, frac_bits):
   return [
@@ -171,13 +178,13 @@ test_case_table = mk_test_case_table([
   [ "eight_point_random",              random_signal,                             0,        0,         32,        16,       8         ],
   [ "two_point_two_samples",           two_point_two_samples,                     0,        0,         32,        16,       2         ],
   [ "eight_point_two_ops",             eight_point_two_samples,                   0,        0,         32,        16,       8         ],
- ############################################################################################################################################## 
   [ "eight_point_ones_alt_twos",       eight_point_ones_alt_twos,                 0,        0,         32,        16,       8         ],
   [ "eight_point_one_to_eight",        eight_point_one_to_eight,                  0,        0,         32,        16,       8         ],
   [ "eight_point_assorted",            eight_point_assorted,                      0,        0,         32,        16,       8         ],
-  #[ "four_point_ones_alt_twos",        four_point_ones_alt_twos,                  0,        0,         32,        16,       4         ],
-  #[ "four_point_one_to_four",          four_point_one_to_four,                    0,        0,         32,        16,       4         ],
-  #[ "four_point_assorted",             four_point_assorted,                       0,        0,         32,        16,       4         ],
+  [ "four_point_dc",                   four_point_dc,                             0,        0,         32,        16,       4         ],
+  [ "four_point_one_to_four",          four_point_one_to_four,                    0,        0,         32,        16,       4         ],
+  [ "four_point_assorted",             four_point_assorted,                       0,        0,         32,        16,       4         ],
+  [ "sixteen_point_dc",                sixteen_point_dc,                          0,        0,         32,        16,       16         ],
   
 
 

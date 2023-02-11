@@ -7,100 +7,10 @@
 
 //==========
 
-VL_CTOR_IMP(VCombinationalFFT) {
-    VCombinationalFFT__Syms* __restrict vlSymsp = __VlSymsp = new VCombinationalFFT__Syms(this, name());
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI, VCombinationalFFT_stateI__N20_D10);
-    VL_CELL(__PVT__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI, VCombinationalFFT_stateI__N20_D10);
-    // Reset internal values
-    
-    // Reset structure values
-    _ctor_var_reset();
-}
-
-void VCombinationalFFT::__Vconfigure(VCombinationalFFT__Syms* vlSymsp, bool first) {
-    if (0 && first) {}  // Prevent unused
-    this->__VlSymsp = vlSymsp;
-}
-
-VCombinationalFFT::~VCombinationalFFT() {
-    delete __VlSymsp; __VlSymsp=NULL;
-}
-
-void VCombinationalFFT::eval() {
+void VCombinationalFFT::eval_step() {
     VL_DEBUG_IF(VL_DBG_MSGF("+++++TOP Evaluate VCombinationalFFT::eval\n"); );
     VCombinationalFFT__Syms* __restrict vlSymsp = this->__VlSymsp;  // Setup global symbol table
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    VCombinationalFFT* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
 #ifdef VL_DEBUG
     // Debug assertions
     _eval_debug_assertions();
@@ -154,3812 +64,9 @@ void VCombinationalFFT::_eval_initial_loop(VCombinationalFFT__Syms* __restrict v
     } while (VL_UNLIKELY(__Vchange));
 }
 
-void VCombinationalFFT::_settle__TOP__1(VCombinationalFFT__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_settle__TOP__1\n"); );
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real[0U] = 0x10000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary[0U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real[1U] = 0x10000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary[1U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real[2U] = 0x10000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary[2U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real[3U] = 0x10000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary[3U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real[0U] = 0x10000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary[0U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real[2U] = 0x10000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary[2U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real[0U] = 0x10000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary[0U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[0U][0U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[0U][1U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[0U][2U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[0U][3U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[0U][4U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[0U][5U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[0U][6U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[0U][7U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[0U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[1U] = 0xb504U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[2U] = 0x10000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[3U] = 0xb504U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[4U] = 0U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[5U] = 0xffff4afcU;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[6U] = 0xffff0000U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[7U] = 0xffff4afcU;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][0U] 
-        = vlTOPp->send_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][1U] 
-        = vlTOPp->send_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][2U] 
-        = vlTOPp->send_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][3U] 
-        = vlTOPp->send_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][4U] 
-        = vlTOPp->send_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][5U] 
-        = vlTOPp->send_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][6U] 
-        = vlTOPp->send_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][7U] 
-        = vlTOPp->send_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[0U][0U] 
-        = vlTOPp->recv_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[0U][1U] 
-        = vlTOPp->recv_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[0U][2U] 
-        = vlTOPp->recv_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[0U][3U] 
-        = vlTOPp->recv_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[0U][4U] 
-        = vlTOPp->recv_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[0U][5U] 
-        = vlTOPp->recv_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[0U][6U] 
-        = vlTOPp->recv_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[0U][7U] 
-        = vlTOPp->recv_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[0U] 
-        = vlTOPp->recv_msg[0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[1U] 
-        = vlTOPp->recv_msg[1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[2U] 
-        = vlTOPp->recv_msg[2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[3U] 
-        = vlTOPp->recv_msg[3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[4U] 
-        = vlTOPp->recv_msg[4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[5U] 
-        = vlTOPp->recv_msg[5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[6U] 
-        = vlTOPp->recv_msg[6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[7U] 
-        = vlTOPp->recv_msg[7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
-        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc 
-        = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
-            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
-           - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
-    if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
-               >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
-        vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-        if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
-                    << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                     << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
-                   << 0x1fU);
-            vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
-        }
-    }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
-    vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cc;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_rdy;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cr;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__recv_msg_intermediate
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[0U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[0U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[0U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[0U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[0U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[0U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[0U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[0U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[1U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[1U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[1U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[1U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[1U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[1U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[1U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[1U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[2U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[2U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[2U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[2U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[2U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[2U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[2U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[2U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[3U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[3U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[3U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[3U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[3U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[3U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[3U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[3U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[0U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[0U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[0U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[0U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[0U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[0U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[0U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[0U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[1U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[1U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[1U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[1U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[1U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[1U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[1U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[1U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[2U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[2U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[2U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[2U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[2U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[2U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[2U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[2U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[1U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[1U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[1U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[1U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[1U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[1U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[1U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[1U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[2U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[2U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[2U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[2U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[2U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[2U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[2U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[2U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[3U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[3U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[3U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[3U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[3U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[3U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[3U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[3U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[1U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[1U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[1U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[1U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[1U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[1U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[1U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[1U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[2U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[2U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[2U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[2U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[2U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[2U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[2U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[2U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[3U][7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[3U][6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[3U][5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[3U][4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[3U][3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[3U][2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[3U][1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[3U][0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [0U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [0U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [0U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [0U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [0U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [0U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [0U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [0U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [1U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [1U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [1U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [1U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [1U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [1U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [1U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [1U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [2U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [2U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [2U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [2U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [2U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [2U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [2U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg
-        [2U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm 
-        = ((0xfeU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-           | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-           [0U][0U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm 
-        = ((0xfdU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-              [0U][1U] << 1U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm 
-        = ((0xfbU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-              [0U][2U] << 2U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm 
-        = ((0xf7U & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-              [0U][3U] << 3U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm 
-        = ((0xefU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-              [0U][4U] << 4U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm 
-        = ((0xdfU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-              [0U][5U] << 5U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm 
-        = ((0xbfU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-              [0U][6U] << 6U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm 
-        = ((0x7fU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-              [0U][7U] << 7U));
-    vlTOPp->recv_rdy = ((0xffU == (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm)) 
-                        & (~ (IData)(vlTOPp->send_rdy)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [1U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [1U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [1U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [1U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [1U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [1U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [1U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [1U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [2U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [2U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [2U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [2U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [2U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [2U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [2U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [2U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [3U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [3U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [3U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [3U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [3U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [3U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [3U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in
-        [3U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [3U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [3U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [3U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [3U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [3U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [3U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [3U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [3U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [0U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [0U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [0U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [0U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [0U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [0U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [0U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [0U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [1U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [1U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [1U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [1U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [1U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [1U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [1U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [1U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [2U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [2U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [2U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [2U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [2U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [2U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [2U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg
-        [2U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 
-        = ((0xfeU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2)) 
-           | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-           [3U][0U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 
-        = ((0xfdU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-              [3U][1U] << 1U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 
-        = ((0xfbU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-              [3U][2U] << 2U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 
-        = ((0xf7U & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-              [3U][3U] << 3U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 
-        = ((0xefU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-              [3U][4U] << 4U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 
-        = ((0xdfU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-              [3U][5U] << 5U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 
-        = ((0xbfU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-              [3U][6U] << 6U));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 
-        = ((0x7fU & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2)) 
-           | (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-              [3U][7U] << 7U));
-    vlTOPp->send_val = (0xffU == (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [0U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [0U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [0U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [0U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [0U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [0U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [0U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [0U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [1U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [1U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [1U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [1U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [1U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [1U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [1U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [1U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [2U][7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [2U][6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [2U][5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [2U][4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [2U][3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [2U][2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [2U][1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in
-        [2U][0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy
-        [0U];
-    vlTOPp->send_msg[0U] = vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate
-        [0U];
-    vlTOPp->send_msg[1U] = vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate
-        [1U];
-    vlTOPp->send_msg[2U] = vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate
-        [2U];
-    vlTOPp->send_msg[3U] = vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate
-        [3U];
-    vlTOPp->send_msg[4U] = vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate
-        [4U];
-    vlTOPp->send_msg[5U] = vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate
-        [5U];
-    vlTOPp->send_msg[6U] = vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate
-        [6U];
-    vlTOPp->send_msg[7U] = vlTOPp->CombinationalFFT__DOT__v__DOT__send_msg_intermediate
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[7U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val
-        [7U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[6U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val
-        [6U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[5U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val
-        [5U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[4U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val
-        [4U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[3U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val
-        [3U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[2U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val
-        [2U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[1U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val
-        [1U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[0U] 
-        = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val
-        [0U];
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in
-           [0U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in
-           [1U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in
-           [2U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in
-           [3U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in
-           [4U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in
-           [5U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in
-           [6U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in
-           [7U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in
-           [0U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in
-           [1U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in
-           [2U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in
-           [3U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in
-           [4U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in
-           [5U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in
-           [6U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in
-           [7U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in
-           [0U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in
-           [1U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in
-           [2U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in
-           [3U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in
-           [4U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in
-           [5U]);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_val 
-        = (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in
-           [6U] & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in
-           [7U]);
-}
-
 VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_sequent__TOP__2\n"); );
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    VCombinationalFFT* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
     CData/*0:0*/ __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val;
     CData/*0:0*/ __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_rdy;
@@ -4509,15 +616,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4546,15 +653,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4583,15 +690,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4620,15 +727,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4657,15 +764,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4694,15 +801,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4731,15 +838,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4768,15 +875,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4805,15 +912,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4842,15 +949,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4879,15 +986,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4916,15 +1023,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = 0U;
     }
@@ -4953,15 +1060,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -4990,15 +1097,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5027,15 +1134,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5064,15 +1171,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5101,15 +1208,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5138,15 +1245,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5175,15 +1282,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5212,15 +1319,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5249,15 +1356,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5286,15 +1393,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5323,15 +1430,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5360,15 +1467,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5397,15 +1504,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5434,15 +1541,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5471,15 +1578,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5508,15 +1615,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5545,15 +1652,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5582,15 +1689,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5619,15 +1726,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5656,15 +1763,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5693,15 +1800,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5730,15 +1837,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -5767,15 +1874,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = 0U;
     }
@@ -5804,15 +1911,15 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
     if (((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy) 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-            = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                               (1U 
-                                                                & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
-                                                                   >> 0x1fU))))))) 
+            = (((QData)((IData)((0xffffU & (- (IData)(
+                                                      (1U 
+                                                       & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art 
+                                                          >> 0x1fU))))))) 
                 << 0x20U) | (QData)((IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art)));
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
             = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = 0U;
-        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = VL_ULL(0);
+        vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc = 0ULL;
         vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter = 0U;
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = 0U;
     }
@@ -6614,407 +2721,407 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dr;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val 
         = __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr 
@@ -7024,35 +3131,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -7100,35 +3207,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr 
@@ -7138,35 +3245,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -7214,35 +3321,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr 
@@ -7252,35 +3359,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -7328,35 +3435,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr 
@@ -7366,35 +3473,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -7442,35 +3549,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr 
@@ -7480,35 +3587,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -7556,35 +3663,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr 
@@ -7594,35 +3701,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -7670,35 +3777,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr 
@@ -7708,35 +3815,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -7784,35 +3891,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr 
@@ -7822,35 +3929,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -7898,35 +4005,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr 
@@ -7936,35 +4043,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -8012,35 +4119,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr 
@@ -8050,35 +4157,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -8126,35 +4233,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr 
@@ -8164,35 +4271,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -8240,35 +4347,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
          & (IData)(vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__mul_rdy))) {
         __Vdly__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
     }
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp;
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr 
@@ -8278,35 +4385,35 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
         = ((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab 
             - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr) 
            - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc);
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
-        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.counter 
         = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_ULL(0);
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy 
+        = (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter));
+    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = 0ULL;
     if ((1U & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb 
                >> (0x1fU & (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter))))) {
         vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-            = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                         << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
+            = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                    << (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)));
         if ((1U & (0x1fU == (IData)(vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.counter)))) {
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
-                = (((QData)((IData)((0xffffU & VL_NEGATE_I((IData)(
-                                                                   (1U 
-                                                                    & (IData)(
-                                                                              (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
-                                                                               >> 0x2fU)))))))) 
+                = (((QData)((IData)((0xffffU & (- (IData)(
+                                                          (1U 
+                                                           & (IData)(
+                                                                     (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha 
+                                                                      >> 0x2fU)))))))) 
                     << 0x30U) | vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                 = (((vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt 
                      << 0x20U) - vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt) 
                    << 0x1fU);
             vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                = (VL_ULL(0xffffffffffff) & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
+                = (0xffffffffffffULL & vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt);
         }
     }
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-        = (VL_ULL(0xffffffffffff) & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
-                                     + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
+        = (0xffffffffffffULL & (vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp 
+                                + vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__cinI.acc));
     vlSymsp->TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ctI.acc 
         = vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp;
     if (vlTOPp->reset) {
@@ -9294,7 +5401,7 @@ VL_INLINE_OPT void VCombinationalFFT::_sequent__TOP__2(VCombinationalFFT__Syms* 
 
 VL_INLINE_OPT void VCombinationalFFT::_combo__TOP__3(VCombinationalFFT__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_combo__TOP__3\n"); );
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    VCombinationalFFT* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[3U][0U] 
         = vlTOPp->send_rdy;
@@ -10725,27 +6832,9 @@ VL_INLINE_OPT void VCombinationalFFT::_combo__TOP__3(VCombinationalFFT__Syms* __
            [7U]);
 }
 
-void VCombinationalFFT::_initial__TOP__4(VCombinationalFFT__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_initial__TOP__4\n"); );
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-    vlTOPp->CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = 1U;
-}
-
 void VCombinationalFFT::_eval(VCombinationalFFT__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_eval\n"); );
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    VCombinationalFFT* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     if (((IData)(vlTOPp->clk) & (~ (IData)(vlTOPp->__Vclklast__TOP__clk)))) {
         vlTOPp->_sequent__TOP__2(vlSymsp);
@@ -10755,31 +6844,16 @@ void VCombinationalFFT::_eval(VCombinationalFFT__Syms* __restrict vlSymsp) {
     vlTOPp->__Vclklast__TOP__clk = vlTOPp->clk;
 }
 
-void VCombinationalFFT::_eval_initial(VCombinationalFFT__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_eval_initial\n"); );
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->__Vclklast__TOP__clk = vlTOPp->clk;
-    vlTOPp->_initial__TOP__4(vlSymsp);
-}
-
-void VCombinationalFFT::final() {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::final\n"); );
-    // Variables
-    VCombinationalFFT__Syms* __restrict vlSymsp = this->__VlSymsp;
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-}
-
-void VCombinationalFFT::_eval_settle(VCombinationalFFT__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_eval_settle\n"); );
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->_settle__TOP__1(vlSymsp);
-}
-
 VL_INLINE_OPT QData VCombinationalFFT::_change_request(VCombinationalFFT__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_change_request\n"); );
-    VCombinationalFFT* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    VCombinationalFFT* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    return (vlTOPp->_change_request_1(vlSymsp));
+}
+
+VL_INLINE_OPT QData VCombinationalFFT::_change_request_1(VCombinationalFFT__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_change_request_1\n"); );
+    VCombinationalFFT* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     // Change detection
     QData __req = false;  // Logically a bool
@@ -11233,836 +7307,3 @@ void VCombinationalFFT::_eval_debug_assertions() {
         Verilated::overWidthError("send_rdy");}
 }
 #endif  // VL_DEBUG
-
-void VCombinationalFFT::_ctor_var_reset() {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    VCombinationalFFT::_ctor_var_reset\n"); );
-    // Body
-    clk = VL_RAND_RESET_I(1);
-    reset = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(256, recv_msg);
-    recv_rdy = VL_RAND_RESET_I(1);
-    recv_val = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(256, send_msg);
-    send_rdy = VL_RAND_RESET_I(1);
-    send_val = VL_RAND_RESET_I(1);
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__recv_msg_intermediate[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__send_msg_intermediate[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT____Vcellout__comb_fft__send_msg[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT____Vcellinp__comb_fft__recv_msg[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            { int __Vi1=0; for (; __Vi1<8; ++__Vi1) {
-                    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__real_msg[__Vi0][__Vi1] = VL_RAND_RESET_I(32);
-            }}
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            { int __Vi1=0; for (; __Vi1<8; ++__Vi1) {
-                    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__complex_msg[__Vi0][__Vi1] = VL_RAND_RESET_I(32);
-            }}
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            { int __Vi1=0; for (; __Vi1<8; ++__Vi1) {
-                    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__val_in[__Vi0][__Vi1] = VL_RAND_RESET_I(1);
-            }}
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            { int __Vi1=0; for (; __Vi1<8; ++__Vi1) {
-                    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__rdy_in[__Vi0][__Vi1] = VL_RAND_RESET_I(1);
-            }}
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__sine_wave_out[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm = VL_RAND_RESET_I(8);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__imm2 = VL_RAND_RESET_I(8);
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk1__DOT__SineWave__sine_wave_out[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_in_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__butterfly_out_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__twiddle_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__send_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__send_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_in_1__recv_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__send_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__send_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__0__KET____DOT__xbar_out_1__recv_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__0__KET____DOT__twiddle_generator__twiddle_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_in_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__butterfly_out_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__twiddle_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__send_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__send_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_in_1__recv_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__send_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__send_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__xbar_out_1__recv_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__1__KET____DOT__twiddle_generator__twiddle_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__1__KET____DOT__twiddle_generator__sine_wave_in[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_in_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__butterfly_out_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__twiddle_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__send_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__send_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_in_1__recv_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__send_val = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__dr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__cr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__recv_val = VL_RAND_RESET_I(1);
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__send_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__send_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_rdy[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_val[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__xbar_out_1__recv_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_imaginary[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<4; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellout__genblk3__BRA__2__KET____DOT__twiddle_generator__twiddle_real[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            CombinationalFFT__DOT__v__DOT__comb_fft__DOT____Vcellinp__genblk3__BRA__2__KET____DOT__twiddle_generator__sine_wave_in[__Vi0] = VL_RAND_RESET_I(32);
-    }}
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__0__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__1__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__2__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__mul_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__tc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__a = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__b = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__arbr_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__acbc_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__ab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__sab_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3_recv_rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__act = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__art = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__bct = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__brt = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m1__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m2__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__hb = VL_RAND_RESET_I(32);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__ha = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__rdy = VL_RAND_RESET_I(1);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tmp = VL_RAND_RESET_Q(48);
-    CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__genblk1__BRA__3__KET____DOT__bfu_in__DOT__genblk1__DOT__mul__DOT__m3__DOT__mult__DOT__tt = VL_RAND_RESET_Q(64);
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            __Vchglast__TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__rdy_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            __Vchglast__TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__0__KET____DOT__val_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            __Vchglast__TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__rdy_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            __Vchglast__TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__1__KET____DOT__val_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            __Vchglast__TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__rdy_interior_in[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-    { int __Vi0=0; for (; __Vi0<8; ++__Vi0) {
-            __Vchglast__TOP__CombinationalFFT__DOT__v__DOT__comb_fft__DOT__genblk3__BRA__2__KET____DOT__val_interior_out[__Vi0] = VL_RAND_RESET_I(1);
-    }}
-}

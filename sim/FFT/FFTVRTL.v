@@ -1,7 +1,9 @@
 
 `include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/TwiddleGeneratorVRTL.v"
+`include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_16VRTL.v"
 `include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_8VRTL.v"
 `include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_2VRTL.v"
+`include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_4VRTL.v"
 `include "FFT-Crossbar/sim/CombinationalFFTCrossbar/CombinationalFFTCrossbarVRTL.v"
 `include "C2S2-Module-Library/butterfly/sim/butterfly/ButterflyVRTL.v"
 module FFTVRTL 
@@ -35,7 +37,25 @@ module FFTVRTL
 
     //Manual 8-bit bit reversal TODO make parametrized
     generate 
-        if(N_SAMPLES == 8) begin
+        if(N_SAMPLES == 16) begin
+            assign real_msg[0][0] = recv_msg[0];
+            assign real_msg[0][8] = recv_msg[1];
+            assign real_msg[0][4] = recv_msg[2];
+            assign real_msg[0][12] = recv_msg[3];
+            assign real_msg[0][2] = recv_msg[4];
+            assign real_msg[0][10] = recv_msg[5];
+            assign real_msg[0][6] = recv_msg[6];
+            assign real_msg[0][14] = recv_msg[7];
+            assign real_msg[0][1] = recv_msg[8];
+            assign real_msg[0][9] = recv_msg[9];
+            assign real_msg[0][5] = recv_msg[10];
+            assign real_msg[0][13] = recv_msg[11];
+            assign real_msg[0][3] = recv_msg[12];
+            assign real_msg[0][11] = recv_msg[13];
+            assign real_msg[0][7] = recv_msg[14];
+            assign real_msg[0][15] = recv_msg[15];
+            SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_16VRTL SineWave (.sine_wave_out(sine_wave_out));
+        end else if(N_SAMPLES == 8) begin
             assign real_msg[0][0] = recv_msg[0];
             assign real_msg[0][4] = recv_msg[1];
             assign real_msg[0][2] = recv_msg[2];
@@ -45,6 +65,12 @@ module FFTVRTL
             assign real_msg[0][3] = recv_msg[6];
             assign real_msg[0][7] = recv_msg[7];
             SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_8VRTL SineWave (.sine_wave_out(sine_wave_out));
+        end else if(N_SAMPLES == 4) begin
+            assign real_msg[0][0] = recv_msg[0];
+            assign real_msg[0][2] = recv_msg[1];
+            assign real_msg[0][1] = recv_msg[2];
+            assign real_msg[0][3] = recv_msg[3];
+            SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_4VRTL SineWave (.sine_wave_out(sine_wave_out));
         end else if(N_SAMPLES == 2) begin
             assign real_msg[0][0] = recv_msg[0];
             assign real_msg[0][1] = recv_msg[1];

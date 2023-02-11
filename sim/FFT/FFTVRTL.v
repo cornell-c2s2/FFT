@@ -3,7 +3,7 @@
 `include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_8VRTL.v"
 `include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_2VRTL.v"
 `include "FFT-Crossbar/sim/CombinationalFFTCrossbar/CombinationalFFTCrossbarVRTL.v"
-`include "C2S2-Module-Library/butterfly/sim/butterfly/ButterflyVRTL.v"
+`include "butterfly-unit/sim/butterfly/ButterflyVRTL.v"
 module FFTVRTL 
    #(
         BIT_WIDTH  = 32,

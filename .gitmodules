@@ -1,3 +1,9 @@
 [submodule "sim/FFT/butterfly-unit"]
 	path = sim/FFT/butterfly-unit
 	url = https://github.com/cornell-c2s2/butterfly-unit.git
+[submodule "sim/FFT/FFT-Twiddle_Generator"]
+	path = sim/FFT/FFT-Twiddle_Generator
+	url = https://github.com/cornell-c2s2/FFT-Twiddle_Generator.git
+[submodule "sim/FFT/FFT-Crossbar"]
+	path = sim/FFT/FFT-Crossbar
+	url = https://github.com/cornell-c2s2/FFT-Crossbar.git

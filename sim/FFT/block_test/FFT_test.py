@@ -171,7 +171,7 @@ test_case_table = mk_test_case_table([
   (                                   "msgs                                       src_delay sink_delay BIT_WIDTH DECIMAL_PT N_SAMPLES"),
   [ "two_point_dc",                    two_point_dc,                              0,        0,         32,        16,       2         ],
   [ "two_point_dc_generated",          two_point_dc_generated,                    0,        0,         32,        16,       2         ],
-  [ "two_point_dc_generated_negative", two_point_dc_generated_negative,           0,       0,          32,        16,       2         ],
+  [ "two_point_dc_generated_negative", two_point_dc_generated_negative,           0,        0,         32,        16,       2         ],
   [ "eight_point_dc",                  eight_point_dc,                            0,        0,         32,        16,       8         ],
   [ "eight_point_offset_sine",         eight_point_offset_sine,                   0,        0,         32,        16,       8         ],
   [ "two_point_random",                random_signal,                             0,        0,         32,        16,       2         ],
@@ -184,7 +184,7 @@ test_case_table = mk_test_case_table([
   [ "four_point_dc",                   four_point_dc,                             0,        0,         32,        16,       4         ],
   [ "four_point_one_to_four",          four_point_one_to_four,                    0,        0,         32,        16,       4         ],
   [ "four_point_assorted",             four_point_assorted,                       0,        0,         32,        16,       4         ],
-  [ "sixteen_point_dc",                sixteen_point_dc,                          0,        0,         32,        16,       16         ],
+  [ "sixteen_point_dc",                sixteen_point_dc,                          0,        0,         32,        16,       16        ],
   
 
 

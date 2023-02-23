@@ -141,7 +141,7 @@ def sixteen_point_dc(bits, fft_size, frac_bits):
 def two_point_two_samples(bits, fft_size, frac_bits):
   return [
   0x00010000_00010000, 0x00000000_00020000,
-  0x00000000_00010000, 0x00010000_FFFF0000
+  0x00000000_00010000, 0x00010000_00010000
   ]
 
 def eight_point_two_samples(bits, fft_size, frac_bits):
@@ -149,6 +149,13 @@ def eight_point_two_samples(bits, fft_size, frac_bits):
   0x00010000_00000000_00010000_00000000_00010000_00000000_00010000_00000000, 0x00000000_00000000_00000000_fffc0000_00000000_00000000_00000000_00040000,
   0x00010000_00010000_00010000_00010000_00010000_00010000_00010000_00010000, 0x00000000_00000000_00000000_00000000_00000000_00000000_00000000_00080000
   ] 
+
+def descend_signal(bits, fft_size, frac_bits):
+  signal = []
+  for i in range(fft_size):
+    signal.append(Fxp( fft_size - i, signed = True, n_word = bits, n_frac = frac_bits ))
+  
+  return fft_call_response( signal, bits, fft_size)
 
 def random_signal(bits, fft_size, frac_bits):
   signal = []
@@ -185,6 +192,7 @@ test_case_table = mk_test_case_table([
   [ "four_point_one_to_four",          four_point_one_to_four,                    0,        0,         32,        16,       4         ],
   [ "four_point_assorted",             four_point_assorted,                       0,        0,         32,        16,       4         ],
   [ "sixteen_point_dc",                sixteen_point_dc,                          0,        0,         32,        16,       16        ],
+  [ "descend_signal",                  descend_signal,                            0,        0,         32,        16,       16        ],
   
 
 

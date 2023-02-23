@@ -97,6 +97,12 @@ def eight_point_dc_three(bits, fft_size, frac_bits):
   0x00000000_00000000_00000000_00000000_00000000_00000000_00000000_00080000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000,
   ]
 
+def two_point_two_samples(bits, fft_size, frac_bits):
+  return [
+  0x00010000_00010000_00000000_00000000, 0x00000000_00020000_00000000_00000000,
+  0x00010000_00000000_00000000_00000000, 0xFFFF0000_00010000_00000000_00000000
+  ]
+
 
 
 def random_signal(bits, fft_size, frac_bits):
@@ -121,7 +127,8 @@ test_case_table = mk_test_case_table([
   [ "two_point_dc",                    two_point_dc,                              0,        0,         32,        16,       2 ,        0         ],
   [ "eight_point_dc",                  eight_point_dc,                            0,        0,         32,        16,       8 ,        0         ],
   [ "eight_point_dc_two",              eight_point_dc_two,                        0,        0,         32,        16,       8 ,        1         ],
-  [ "eight_point_offset_sine",         eight_point_dc_three,                      0,        0,         32,        16,       8 ,        2         ],
+  [ "eight_point_dc_three",            eight_point_dc_three,                      0,        0,         32,        16,       8 ,        2         ],
+  [ "two_point_two_samples",           two_point_two_samples,                     0,        0,         32,        16,       2 ,        0         ],
   
 ])
 

@@ -11,7 +11,7 @@ from pymtl3 import *
 from pymtl3.stdlib import stream
 from pymtl3.stdlib.test_utils import mk_test_case_table, run_sim
 from FFT.FFTStageTestHarnessRTL import FFTStageTestHarnessVRTL
-from .FixedPt_FFT import cooley_tukey_fft
+from .FixedPt_FFT import fixed_point_fft
 from fxpmath import Fxp
 
 
@@ -57,7 +57,7 @@ def packed_msg(array, bitwidth, fft_size): #Array of ints
 """Creates a singular FFT call and resposne """
 def fft_stage_call_response(array_of_sample_integers, bitwidth, fft_size, stage):
   array = []
-  output_array_unpacked = cooley_tukey_fft(array_of_sample_integers, fft_size)
+  output_array_unpacked = fixed_point_fft(array_of_sample_integers, fft_size)
   input_array  = []
   output_array = []
   for n in range(fft_size):
@@ -104,6 +104,23 @@ def two_point_two_samples(bits, fft_size, frac_bits):
   ]
 
 
+def four_point_assorted_one(bits, fft_size, frac_bits):
+  return [
+  0x00000000_00030000_00020000_00010000_00000000_00000000_00000000_00000000, 
+  0x00030000_00030000_FFFF0000_00030000_00000000_00000000_00000000_00000000
+  ]
+
+def four_point_assorted_two(bits, fft_size, frac_bits):
+  return [
+  0x00030000_00030000_FFFF0000_00030000_00000000_00000000_00000000_00000000,
+  0xfffe0000_00000000_fffe0000_00060000_00020000_00000000_fffd0000_00000000
+  ]
+
+
+
+
+
+
 
 def random_signal(bits, fft_size, frac_bits):
   signal = []
@@ -129,6 +146,8 @@ test_case_table = mk_test_case_table([
   [ "eight_point_dc_two",              eight_point_dc_two,                        0,        0,         32,        16,       8 ,        1         ],
   [ "eight_point_dc_three",            eight_point_dc_three,                      0,        0,         32,        16,       8 ,        2         ],
   [ "two_point_two_samples",           two_point_two_samples,                     0,        0,         32,        16,       2 ,        0         ],
+  [ "four_point_assorted_one",         four_point_assorted_one,                   0,        0,         32,        16,       4 ,        0         ],
+  [ "four_point_assorted_two",         four_point_assorted_two,                   0,        0,         32,        16,       4 ,        1         ],
   
 ])
 

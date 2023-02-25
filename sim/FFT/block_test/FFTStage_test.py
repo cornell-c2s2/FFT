@@ -97,6 +97,24 @@ def eight_point_dc_three(bits, fft_size, frac_bits):
   0x00000000_00000000_00000000_00000000_00000000_00000000_00000000_00080000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000,
   ]
 
+def eight_point_assorted(bits, fft_size, frac_bits):
+  return [
+  0x00040000_00050000_00030000_00010000_00000000_FFFF0000_00000000_00020000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000, 
+  0x00010000_00090000_FFFE0000_00040000_FFFF0000_FFFF0000_00020000_00020000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000
+  ]
+
+def eight_point_assorted_two(bits, fft_size, frac_bits):
+  return [
+  0x00010000_00090000_FFFE0000_00040000_FFFF0000_FFFF0000_00020000_00020000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000,
+  0xFFFE0000_FFFB0000_FFFE0000_000D0000_00020000_00030000_00020000_00010000_00010000_00000000_FFFF0000_00000000_FFFF0000_00000000_00010000_00000000
+  ]
+
+def eight_point_assorted_three(bits, fft_size, frac_bits):
+  return [
+  0xFFFE0000_FFFB0000_FFFE0000_000D0000_00020000_00030000_00020000_00010000_00010000_00000000_FFFF0000_00000000_FFFF0000_00000000_00010000_00000000,
+  0xffffe0f4_00030000_00041f0c_fff40000_00041f0c_00030000_ffffe0f4_000e0000_fffe4afc_fffb0000_00004afc_00000000_ffffb504_00050000_0001b504_00000000
+  ]
+
 def two_point_two_samples(bits, fft_size, frac_bits):
   return [
   0x00010000_00010000_00000000_00000000, 0x00000000_00020000_00000000_00000000,
@@ -106,14 +124,14 @@ def two_point_two_samples(bits, fft_size, frac_bits):
 
 def four_point_assorted_one(bits, fft_size, frac_bits):
   return [
-  0x00000000_00030000_00020000_00010000_00000000_00000000_00000000_00000000, 
-  0x00030000_00030000_FFFF0000_00030000_00000000_00000000_00000000_00000000
+  0x00020000_00030000_00020000_00020000_00000000_00000000_00000000_00000000, 
+  0x00010000_00050000_00000000_00040000_00000000_00000000_00000000_00000000
   ]
 
 def four_point_assorted_two(bits, fft_size, frac_bits):
   return [
-  0x00030000_00030000_FFFF0000_00030000_00000000_00000000_00000000_00000000,
-  0xfffe0000_00000000_fffe0000_00060000_00020000_00000000_fffd0000_00000000
+  0x00010000_00050000_00000000_00040000_00000000_00000000_00000000_00000000,
+  0x00000000_FFFF0000_00000000_00090000_00010000_00000000_FFFF0000_00000000
   ]
 
 
@@ -145,6 +163,9 @@ test_case_table = mk_test_case_table([
   [ "eight_point_dc",                  eight_point_dc,                            0,        0,         32,        16,       8 ,        0         ],
   [ "eight_point_dc_two",              eight_point_dc_two,                        0,        0,         32,        16,       8 ,        1         ],
   [ "eight_point_dc_three",            eight_point_dc_three,                      0,        0,         32,        16,       8 ,        2         ],
+  [ "eight_assorted",                  eight_point_assorted,                      0,        0,         32,        16,       8 ,        0         ],
+  [ "eight_assorted_two",              eight_point_assorted_two,                  0,        0,         32,        16,       8 ,        1         ],
+  [ "eight_assorted_three",            eight_point_assorted_three,                0,        0,         32,        16,       8 ,        2         ],
   [ "two_point_two_samples",           two_point_two_samples,                     0,        0,         32,        16,       2 ,        0         ],
   [ "four_point_assorted_one",         four_point_assorted_one,                   0,        0,         32,        16,       4 ,        0         ],
   [ "four_point_assorted_two",         four_point_assorted_two,                   0,        0,         32,        16,       4 ,        1         ],

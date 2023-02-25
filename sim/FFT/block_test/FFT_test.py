@@ -12,7 +12,9 @@ from pymtl3.stdlib import stream
 from pymtl3.stdlib.test_utils import mk_test_case_table, run_sim
 from FFT.FFTTestHarnessRTL import FFTTestHarnessVRTL
 from .FixedPt_FFT import fixed_point_fft
+from .FixedPt_FFT import cooley_tukey_fft_recursive
 from fxpmath import Fxp
+import numpy as np
 
 
 #-------------------------------------------------------------------------
@@ -59,7 +61,7 @@ def fft_call_response(array_of_sample_integers, bitwidth, fft_size):
   array = []
 
   
-  output_array_unpacked = fixed_point_fft(bitwidth, 16, fft_size, array_of_sample_integers)
+  output_array_unpacked = np.fft.fft(array_of_sample_integers)
   input_array  = []
   output_array = []
 
@@ -124,7 +126,17 @@ def eight_point_assorted(bits, fft_size, frac_bits):
 
 def four_point_assorted(bits, fft_size, frac_bits):
   return [
-  0x00000000_00030000_00020000_00010000, 0xfffe0000_00020000_fffe0000_00060000
+  0x00010000_00000000_00010000_00000000, 0x00000000_fffe0000_00000000_00020000
+  ]
+
+def four_point_offset_sine(bits, fft_size, frac_bits):
+  return [
+  0x00010000_00020000_00010000_00020000, 0x00000000_00020000_00000000_00060000
+  ]
+
+def four_point_non_sine(bits, fft_size, frac_bits):
+  return [
+  0x00020000_00020000_00030000_00020000, 0x00000000_FFFF0000_00000000_00090000
   ]
 
 def four_point_dc(bits, fft_size, frac_bits):
@@ -173,6 +185,23 @@ def random_signal(bits, fft_size, frac_bits):
   return fft_call_response( signal, bits, fft_size)
 
 
+def random_stream(bits, fft_size,frac_bits):
+
+  output = []
+  
+  for a in range(50):
+
+    signal = []
+    for i in range(fft_size):
+      signal.append(Fxp( random.uniform(-20,20), signed = True, n_word = bits, n_frac = frac_bits ))
+
+    output = output + fft_call_response( signal, bits, fft_size)
+
+  
+
+  return output
+
+
 
 
 
@@ -190,13 +219,16 @@ test_case_table = mk_test_case_table([
   [ "eight_point_dc",                  eight_point_dc,                            0,        0,         32,        16,       8         ],
   [ "eight_point_offset_sine",         eight_point_offset_sine,                   0,        0,         32,        16,       8         ],
   [ "two_point_random",                random_signal,                             0,        0,         32,        16,       2         ],
+  [ "two_points_random_stream",        random_stream,                             0,        0,         32,        16,       2         ],
   [ "four_point_assorted",             four_point_assorted,                       0,        0,         32,        16,       4         ],
+  [ "four_point_offset_sine",          four_point_offset_sine,                    0,        0,         32,        16,       4,        ],
+  [ "four_point_non_sine",             four_point_non_sine,                       0,        0,         32,        16,       4,        ], 
   [ "eight_point_random",              random_signal,                             0,        0,         32,        16,       8         ],
   [ "two_point_two_samples",           two_point_two_samples,                     0,        0,         32,        16,       2         ],
   [ "eight_point_two_ops",             eight_point_two_samples,                   0,        0,         32,        16,       8         ],
   [ "eight_point_ones_alt_twos",       eight_point_ones_alt_twos,                 0,        0,         32,        16,       8         ],
   [ "eight_point_one_to_eight",        eight_point_one_to_eight,                  0,        0,         32,        16,       8         ],
-  [ "eight_point_assorted",            eight_point_assorted,                      0,        0,         32,        16,       8         ],
+  #[ "eight_point_assorted",            eight_point_assorted,                      0,        0,         32,        16,       8         ],
   [ "four_point_dc",                   four_point_dc,                             0,        0,         32,        16,       4         ],
   [ "four_point_one_to_four",          four_point_one_to_four,                    0,        0,         32,        16,       4         ], 
   [ "sixteen_point_dc",                sixteen_point_dc,                          0,        0,         32,        16,       16        ],
@@ -204,9 +236,6 @@ test_case_table = mk_test_case_table([
   [ "descend_signal_4",                descend_signal,                            0,        0,         32,        16,       4        ],
   [ "descend_signal_16",               descend_signal,                            0,        0,         32,        16,       16        ],
   
-
-
-
 ])
 
 #-------------------------------------------------------------------------

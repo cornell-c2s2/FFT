@@ -13,7 +13,7 @@ from pymtl3.stdlib.test_utils import mk_test_case_table, run_sim
 from FFT.FFTStageTestHarnessRTL import FFTStageTestHarnessVRTL
 from .FixedPt_FFT import fixed_point_fft
 from fxpmath import Fxp
-
+import math
 
 #-------------------------------------------------------------------------
 # TestHarness
@@ -61,8 +61,8 @@ def fft_stage_call_response(array_of_sample_integers, bitwidth, fft_size, stage)
   input_array  = []
   output_array = []
   for n in range(fft_size):
-    input_array.append( int(Fxp(array_of_sample_integers[n],n_word = bitwidth, n_frac = 16).base_repr(10)))
-    output_array.append(int(Fxp(output_array_unpacked[n],n_word = bitwidth, n_frac = 16).base_repr(10)))
+    input_array.append(array_of_sample_integers[n])
+    output_array.append(output_array_unpacked[n])
   
   array.append(packed_msg(input_array, bitwidth, fft_size))
   array.append(packed_msg(output_array, bitwidth, fft_size))
@@ -106,12 +106,14 @@ def eight_point_assorted(bits, fft_size, frac_bits):
 def eight_point_assorted_two(bits, fft_size, frac_bits):
   return [
   0x00010000_00090000_FFFE0000_00040000_FFFF0000_FFFF0000_00020000_00020000_00000000_00000000_00000000_00000000_00000000_00000000_00000000_00000000,
-  0xFFFE0000_FFFB0000_FFFE0000_000D0000_00020000_00030000_00020000_00010000_00010000_00000000_FFFF0000_00000000_FFFF0000_00000000_00010000_00000000
+  0xfffe0000fffb0000fffe0000000d0000000200000003000000020000000100000001000000000000ffff000000000000ffff0000000000000001000000000000
+
+
   ]
 
 def eight_point_assorted_three(bits, fft_size, frac_bits):
   return [
-  0xFFFE0000_FFFB0000_FFFE0000_000D0000_00020000_00030000_00020000_00010000_00010000_00000000_FFFF0000_00000000_FFFF0000_00000000_00010000_00000000,
+  0xfffe0000fffb0000fffe0000000d0000000200000003000000020000000100000001000000000000ffff000000000000ffff0000000000000001000000000000,
   0xffffe0f4_00030000_00041f0c_fff40000_00041f0c_00030000_ffffe0f4_000e0000_fffe4afc_fffb0000_00004afc_00000000_ffffb504_00050000_0001b504_00000000
   ]
 
@@ -143,7 +145,7 @@ def four_point_assorted_two(bits, fft_size, frac_bits):
 def random_signal(bits, fft_size, frac_bits):
   signal = []
   for i in range(fft_size):
-    signal.append(Fxp( random.uniform(-20,20), signed = True, n_word = bits, n_frac = frac_bits ))
+    signal.append( math.trunc(random.uniform(-20,20) * (2**frac_bits)))
 
   print(fft_stage_call_response( signal, bits, fft_size))
 

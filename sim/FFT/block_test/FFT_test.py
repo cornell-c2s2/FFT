@@ -15,6 +15,7 @@ from .FixedPt_FFT import fixed_point_fft
 from .FixedPt_FFT import cooley_tukey_fft_recursive
 from fxpmath import Fxp
 import numpy as np
+import math
 
 
 #-------------------------------------------------------------------------
@@ -61,14 +62,14 @@ def fft_call_response(array_of_sample_integers, bitwidth, fft_size):
   array = []
 
   
-  output_array_unpacked = np.fft.fft(array_of_sample_integers)
+  output_array_unpacked = fixed_point_fft(BIT_WIDTH=bitwidth,DECIMAL_PT=16,SIZE_FFT=fft_size,x=array_of_sample_integers)
   input_array  = []
   output_array = []
 
 
   for n in range(fft_size):
-    input_array.append( int(Fxp(array_of_sample_integers[n],n_word = bitwidth, n_frac = 16).base_repr(10)))
-    output_array.append(int(Fxp(output_array_unpacked[n],n_word = bitwidth, n_frac = 16).base_repr(10)))
+    input_array.append(array_of_sample_integers[n])
+    output_array.append(output_array_unpacked[n])
   
 
   array.append(packed_msg(input_array, bitwidth, fft_size))
@@ -89,12 +90,12 @@ def two_point_dc(bits, fft_size, frac_bits):
 def two_point_dc_generated(bits, fft_size, frac_bits):
   print("here")
   print([Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits ),Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits )])
-  return fft_call_response([Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits ),Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits )], bits, fft_size)
+  return fft_call_response([1 * (2**frac_bits),1 * (2**frac_bits)], bits, fft_size)
 
 
 def two_point_dc_generated_negative(bits, fft_size, frac_bits):
 
-  return fft_call_response([Fxp( -1, signed = True, n_word = bits, n_frac = frac_bits ),Fxp( -1, signed = True, n_word = bits, n_frac = frac_bits )], bits, fft_size)
+  return fft_call_response([1 * (2**frac_bits),1 * (2**frac_bits)], bits, fft_size)
 
 
 def eight_point_dc(bits, fft_size, frac_bits):
@@ -171,14 +172,14 @@ def eight_point_two_samples(bits, fft_size, frac_bits):
 def descend_signal(bits, fft_size, frac_bits):
   signal = []
   for i in range(fft_size):
-    signal.append(Fxp( fft_size - i, signed = True, n_word = bits, n_frac = frac_bits ))
+    signal.append((fft_size - i) * (2**frac_bits))
   
   return fft_call_response( signal, bits, fft_size)
 
 def random_signal(bits, fft_size, frac_bits):
   signal = []
   for i in range(fft_size):
-    signal.append(Fxp( random.uniform(-20,20), signed = True, n_word = bits, n_frac = frac_bits ))
+    signal.append(math.trunc(random.uniform(-20,20) * (2**frac_bits)))
 
   
 
@@ -193,7 +194,7 @@ def random_stream(bits, fft_size,frac_bits):
 
     signal = []
     for i in range(fft_size):
-      signal.append(Fxp( random.uniform(-20,20), signed = True, n_word = bits, n_frac = frac_bits ))
+      signal.append(math.trunc(random.uniform(-20,20) * (2**frac_bits)))
 
     output = output + fft_call_response( signal, bits, fft_size)
 

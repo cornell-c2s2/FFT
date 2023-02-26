@@ -7,7 +7,7 @@ import math
 import os
 import cmath
 import numpy as np
-from fixedpt import CFixed
+from fxpmath import Fxp
 
     
 def cooley_tukey_fft_recursive(x, NUM_SAMPLES):
@@ -59,8 +59,8 @@ def fixed_point_fft(BIT_WIDTH, DECIMAL_PT, SIZE_FFT, x):
     sine_table = np.zeros(SIZE_FFT)
 
     for i in range(SIZE_FFT):
-        X_i[i] = CFixed(0, signed = True, n_word = BIT_WIDTH, n_frac = DECIMAL_PT)
-        sine_table[i] = CFixed(np.sin((2 * np.pi * i / SIZE_FFT)), signed = True, n_word = BIT_WIDTH, n_frac = DECIMAL_PT)
+        X_i[i] = 0
+        sine_table[i] = math.trunc(math.sin((2 * math.pi * i / SIZE_FFT)) * (2**DECIMAL_PT))
 
     for stage in range(round(math.log2(SIZE_FFT))):
         
@@ -80,11 +80,11 @@ def fixed_point_fft_stage( BIT_WIDTH, DECIMAL_PT, SIZE_FFT, STAGE_FFT, sine_tabl
         for i in range( m, SIZE_FFT, 2 ** (STAGE_FFT + 1)):
             #print("m: " + str(m))
             if( m != 0 ):    
-                w_r = sine_table[((m * SIZE_FFT / (2 * (2 ** STAGE_FFT))) % SIZE_FFT + SIZE_FFT/4)]
-                w_im = -sine_table[((m * SIZE_FFT / (2 * (2 ** STAGE_FFT))) % SIZE_FFT)]
+                w_r = sine_table[round((m * SIZE_FFT / (2 * (2 ** STAGE_FFT))) % SIZE_FFT + SIZE_FFT/4)]
+                w_im = -sine_table[round((m * SIZE_FFT / (2 * (2 ** STAGE_FFT))) % SIZE_FFT)]
             if( m == 0 ):
-                w_r = CFixed(1, signed = True, n_word = BIT_WIDTH, n_frac = DECIMAL_PT)
-                w_im = CFixed(0, signed = True, n_word = BIT_WIDTH, n_frac = DECIMAL_PT)
+                w_r = 1 * (2**DECIMAL_PT)
+                w_im = 0
             #print(r)
             #print(im)
 
@@ -102,8 +102,8 @@ def bfu(a_r, b_r, a_i, b_i, w_r, w_im, BIT_WIDTH, DECIMAL_PT):
     print("a_i: " + str(a_i))
     """
 
-    t_r = w_r * b_r - w_im * b_i
-    t_i = (w_r + w_im) * (b_r + b_i) - w_r * b_r - w_im * b_i
+    t_r = ((w_r * b_r) // (2**DECIMAL_PT)) - ((w_im * b_i) // (2**DECIMAL_PT))
+    t_i = ((w_r + w_im) * (b_r + b_i) // (2**DECIMAL_PT)) - (w_r * b_r) // (2**DECIMAL_PT) - (w_im * b_i) / (2**DECIMAL_PT)
     
     c_r = a_r + t_r
     c_i = a_i + t_i 
@@ -114,7 +114,8 @@ def bfu(a_r, b_r, a_i, b_i, w_r, w_im, BIT_WIDTH, DECIMAL_PT):
 
     return c_r, d_r, c_i, d_i
 
+"""
 def fxpnumber(n, BIT_WIDTH, DECIMAL_PT):
-    return CFixed(n, signed = True, n_word = BIT_WIDTH, n_frac = DECIMAL_PT)
-
+    return Fxp(n, signed = True, n_word = BIT_WIDTH, n_frac = DECIMAL_PT)
+"""
 #print(fixed_point_fft(32,16,2,[1,1]))

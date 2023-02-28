@@ -1,10 +1,7 @@
 `include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/TwiddleGeneratorVRTL.v"
-`include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_16VRTL.v"
-`include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_8VRTL.v"
-`include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_2VRTL.v"
-`include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/SineWave__BIT_WIDTH_32__DECIMAL_POINT_16__SIZE_FFT_4VRTL.v"
 `include "FFT-Crossbar/sim/CombinationalFFTCrossbar/CombinationalFFTCrossbarVRTL.v"
 `include "../../../butterfly-unit/sim/butterfly/ButterflyVRTL.v"
+
 
 
 module FFT_StageVRTL
@@ -64,6 +61,9 @@ module FFT_StageVRTL
     logic [BIT_WIDTH - 1:0] twiddle_real            [N_SAMPLES/2 - 1:0];
     logic [BIT_WIDTH - 1:0] twiddle_imaginary       [N_SAMPLES/2 - 1:0];
 
+    logic                   val_interior_mini       [N_SAMPLES/2 - 1:0];
+    logic                   rdy_interior_mini       [N_SAMPLES/2 - 1:0];
+
     CombinationalFFTCrossbarVRTl #(.BIT_WIDTH(BIT_WIDTH),                          .SIZE_FFT(N_SAMPLES),                                     .STAGE_FFT(STAGE_FFT),              .FRONT(1)) xbar_in_1
                                   (.recv_real(recv_msg_real),                   .recv_imaginary(recv_msg_imag),                        .recv_val(val_in),       .recv_rdy(rdy_in), 
                                    .send_real(butterfly_in_real[N_SAMPLES - 1:0]), .send_imaginary(butterfly_in_imaginary[N_SAMPLES - 1:0]), .send_val(val_interior_in), .send_rdy(rdy_interior_in));
@@ -74,15 +74,24 @@ module FFT_StageVRTL
             ButterflyVRTL #( .n(BIT_WIDTH), .d(DECIMAL_PT) ) bfu_in ( .ar(butterfly_in_real[ b * 2     ]), .ac(butterfly_in_imaginary[ b * 2     ]), 
                                                                       .br(butterfly_in_real[(b * 2) + 1]), .bc(butterfly_in_imaginary[(b * 2) + 1]), 
                                                                       .wr(twiddle_real     [b]),           .wc(twiddle_imaginary     [b]          ),
-                                                                      .recv_val(val_interior_in[b * 2] && val_interior_in[(b * 2) + 1]), .recv_rdy(rdy_interior_in[b * 2]),
+                                                                      .recv_val(val_interior_in[b * 2] && val_interior_in[(b * 2) + 1]), .recv_rdy(rdy_interior_mini[b]),
                                                                       .cr(butterfly_out_real[b * 2]),       .cc(butterfly_out_imaginary[b * 2]), 
                                                                       .dr(butterfly_out_real[(b * 2) + 1]), .dc(butterfly_out_imaginary[(b * 2) + 1]),
-                                                                      .send_rdy(rdy_interior_out[b * 2] && rdy_interior_out[(b * 2) + 1]), .send_val(val_interior_out[b * 2]),
+                                                                      .send_rdy(rdy_interior_out[b * 2] && rdy_interior_out[(b * 2) + 1]), .send_val(val_interior_mini[b]),
                                                                       .reset(reset), .clk(clk));
-            assign rdy_interior_in [(b * 2) + 1] = rdy_interior_in [b * 2];
-            assign val_interior_out[(b * 2) + 1] = val_interior_out[b * 2];
+
+
+        
+
+        assign val_interior_out[(b * 2) + 1] = val_interior_mini[b]; //
+        assign val_interior_out[b * 2]       = val_interior_mini[b];
+
+        assign rdy_interior_in [(b * 2) + 1] = rdy_interior_mini[b];
+        assign rdy_interior_in [b * 2]       = rdy_interior_mini[b];
         end
     endgenerate
+
+    
 
     CombinationalFFTCrossbarVRTl #(.BIT_WIDTH(BIT_WIDTH), .SIZE_FFT(N_SAMPLES), .STAGE_FFT(STAGE_FFT), .FRONT(0)) xbar_out_1
                                   (.recv_real(butterfly_out_real), .recv_imaginary(butterfly_out_imaginary), .recv_val(val_interior_out),   .recv_rdy(rdy_interior_out), 

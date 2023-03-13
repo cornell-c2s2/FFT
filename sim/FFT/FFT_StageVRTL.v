@@ -71,7 +71,14 @@ module FFT_StageVRTL
     generate
         genvar b;    
         for( b = 0; b < N_SAMPLES/2; b++) begin
-            ButterflyVRTL #( .n(BIT_WIDTH), .d(DECIMAL_PT) ) bfu_in ( .ar(butterfly_in_real[ b * 2     ]), .ac(butterfly_in_imaginary[ b * 2     ]), 
+			localparam IX =
+				(b%(2**STAGE_FFT))*(N_SAMPLES/(2*(2**STAGE_FFT)));
+
+			localparam MMC =
+				((IX==0)? 1 : (IX==N_SAMPLES/2)? 2 : (IX==N_SAMPLES/4)? 3 : (IX==3*N_SAMPLES/4)? 4 : 0);
+
+            ButterflyVRTL #( .n(BIT_WIDTH), .d(DECIMAL_PT) ,
+			.mult(MMC)) bfu_in ( .ar(butterfly_in_real[ b * 2     ]), .ac(butterfly_in_imaginary[ b * 2     ]), 
                                                                       .br(butterfly_in_real[(b * 2) + 1]), .bc(butterfly_in_imaginary[(b * 2) + 1]), 
                                                                       .wr(twiddle_real     [b]),           .wc(twiddle_imaginary     [b]          ),
                                                                       .recv_val(val_interior_in[b * 2] && val_interior_in[(b * 2) + 1]), .recv_rdy(rdy_interior_mini[b]),

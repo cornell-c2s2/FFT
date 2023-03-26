@@ -75,7 +75,7 @@ module FFT_StageVRTL
 				(b%(2**STAGE_FFT))*(N_SAMPLES/(2*(2**STAGE_FFT)));
 
 			localparam MMC =
-				((IX==0)? 1 : (IX==N_SAMPLES/2)? 2 : (IX==N_SAMPLES/4)? 3 : (IX==3*N_SAMPLES/4)? 4 : 0);
+				((IX==0)? 1 : (IX==N_SAMPLES/2)? 2 : (IX==N_SAMPLES/4)? 4 : (IX==3*N_SAMPLES/4)? 3 : 0);
 
             ButterflyVRTL #( .n(BIT_WIDTH), .d(DECIMAL_PT) ,
 			.mult(MMC)) bfu_in ( .ar(butterfly_in_real[ b * 2     ]), .ac(butterfly_in_imaginary[ b * 2     ]), 
@@ -107,14 +107,26 @@ module FFT_StageVRTL
     TwiddleGeneratorVRTL #( .BIT_WIDTH(BIT_WIDTH), .DECIMAL_PT(DECIMAL_PT), .SIZE_FFT(N_SAMPLES), .STAGE_FFT(STAGE_FFT) ) twiddle_generator ( .sine_wave_in(sine_wave_out), .twiddle_real(twiddle_real), .twiddle_imaginary(twiddle_imaginary) );
     
     logic [N_SAMPLES - 1:0] imm2;
+	logic imm2reset;
     always @(*) begin
         int i;
-        for(i = 0; i < N_SAMPLES; i++) begin
-
-            imm2[i] = val_out[i];
+        for (i = 0; i < N_SAMPLES; i++) begin
+//			imm2[i] = val_out[i];
+            imm2[i] = ~imm2reset & (imm2[i] | val_out[i]);
             rdy_out[i] = send_rdy;
 
         end
         send_val = &imm2;
     end
+
+	always @(posedge clk) begin
+		int i;
+		for (i = 0; i < N_SAMPLES; i++) begin
+			if (send_val & send_rdy) begin
+				imm2reset <= 1;
+			end else begin
+				imm2reset <= 0;
+			end
+		end
+	end
 endmodule

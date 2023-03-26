@@ -195,4 +195,8 @@ def test( test_params, cmdline_opts ):
     initial_delay=test_params.sink_delay+3,
     interval_delay=test_params.sink_delay )
 
-  run_sim( th, cmdline_opts, duts=['fft'] )
+  run_sim( th, cmdline_opts = {
+  	'dump_textwave':False,
+	'dump_vcd': f'FFTStage_{str(test_params)}',
+	'max_cycles': 10000
+  }, duts=['fft'] )

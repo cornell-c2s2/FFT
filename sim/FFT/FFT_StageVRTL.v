@@ -84,7 +84,7 @@ module FFT_StageVRTL
                                                                       .recv_val(val_interior_in[b * 2] && val_interior_in[(b * 2) + 1]), .recv_rdy(rdy_interior_mini[b]),
                                                                       .cr(butterfly_out_real[b * 2]),       .cc(butterfly_out_imaginary[b * 2]), 
                                                                       .dr(butterfly_out_real[(b * 2) + 1]), .dc(butterfly_out_imaginary[(b * 2) + 1]),
-                                                                      .send_rdy(rdy_interior_out[b * 2] && rdy_interior_out[(b * 2) + 1]), .send_val(val_interior_mini[b]),
+                                                                      .send_rdy(send_val && rdy_interior_out[b * 2] && rdy_interior_out[(b * 2) + 1]), .send_val(val_interior_mini[b]),
                                                                       .reset(reset), .clk(clk));
 
 
@@ -111,8 +111,8 @@ module FFT_StageVRTL
     always @(*) begin
         int i;
         for (i = 0; i < N_SAMPLES; i++) begin
-//			imm2[i] = val_out[i];
-            imm2[i] = ~imm2reset & (imm2[i] | val_out[i]);
+			imm2[i] = val_out[i];
+//            imm2[i] = ~imm2reset & (imm2[i] | val_out[i]);
             rdy_out[i] = send_rdy;
 
         end

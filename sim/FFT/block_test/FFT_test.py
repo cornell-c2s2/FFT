@@ -88,8 +88,7 @@ def two_point_dc(bits, fft_size, frac_bits):
   ]
 
 def two_point_dc_generated(bits, fft_size, frac_bits):
-  print("here")
-  print([Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits ),Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits )])
+  # print([Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits ),Fxp( 1, signed = True, n_word = bits, n_frac = frac_bits )])
   return fft_call_response([1 * (2**frac_bits),1 * (2**frac_bits)], bits, fft_size)
 
 
@@ -244,20 +243,22 @@ test_case_table = mk_test_case_table([
 #-------------------------------------------------------------------------
 
 @pytest.mark.parametrize( **test_case_table )
-def test( test_params, cmdline_opts ):
+def test( request, test_params, cmdline_opts ):
 
-  th = TestHarness( FFTTestHarnessVRTL(test_params.BIT_WIDTH, test_params.DECIMAL_PT,test_params.N_SAMPLES), test_params.BIT_WIDTH, test_params.DECIMAL_PT, test_params.N_SAMPLES )
+	th = TestHarness( FFTTestHarnessVRTL(test_params.BIT_WIDTH, test_params.DECIMAL_PT,test_params.N_SAMPLES), test_params.BIT_WIDTH, test_params.DECIMAL_PT, test_params.N_SAMPLES )
 
-  msgs = test_params.msgs(test_params.BIT_WIDTH, test_params.N_SAMPLES, test_params.DECIMAL_PT)
+	msgs = test_params.msgs(test_params.BIT_WIDTH, test_params.N_SAMPLES, test_params.DECIMAL_PT)
 
-  th.set_param("top.src.construct",
-    msgs=msgs[::2],
-    initial_delay=test_params.src_delay+3,
-    interval_delay=test_params.src_delay )
+	th.set_param("top.src.construct",
+	msgs=msgs[::2],
+	initial_delay=test_params.src_delay+3,
+	interval_delay=test_params.src_delay )
 
-  th.set_param("top.sink.construct",
-    msgs=msgs[1::2],
-    initial_delay=test_params.sink_delay+3,
-    interval_delay=test_params.sink_delay )
+	th.set_param("top.sink.construct",
+	msgs=msgs[1::2],
+	initial_delay=test_params.sink_delay+3,
+	interval_delay=test_params.sink_delay )
 
-  run_sim( th, cmdline_opts, duts=['fft'] )
+	cmdline_opts["dump_vcd"] = request.node.name
+
+	run_sim( th, cmdline_opts, duts=['fft'] )

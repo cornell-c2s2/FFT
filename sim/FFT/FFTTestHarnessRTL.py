@@ -26,14 +26,14 @@ class FFTTestHarnessVRTL( VerilogPlaceholder, Component ):
 
     # If translated into Verilog, we use the explicit name
 
-    s.set_metadata( VerilogTranslationPass.explicit_module_name, 'CombinationalFFT' )
+    s.set_metadata( VerilogTranslationPass.explicit_module_name, f'CombinationalFFT_{BIT_WIDTH}_{DECIMAL_PT}_{N_SAMPLES}' )
 
     # Interface
 
     
 
-    s.recv = stream.ifcs.RecvIfcRTL( mk_bits(BIT_WIDTH * N_SAMPLES) )
-    s.send = stream.ifcs.SendIfcRTL( mk_bits(BIT_WIDTH * N_SAMPLES) )
+    s.recv = stream.ifcs.RecvIfcRTL( mk_bits(BIT_WIDTH) )
+    s.send = stream.ifcs.SendIfcRTL( mk_bits(BIT_WIDTH) )
 
 # See if the course staff want to force testing a specific RTL language
 # for their own testing.

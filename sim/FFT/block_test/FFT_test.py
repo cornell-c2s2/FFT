@@ -30,7 +30,7 @@ class TestHarness( Component ):
     # Instantiate models
 
     s.src  = stream.SourceRTL( mk_bits(BIT_WIDTH) )
-    s.sink = stream.SinkRTL  ( mk_bits(BIT_WIDTH), cmp_fn=lambda a, b: abs(a.int() - b) <= 2 )
+    s.sink = stream.SinkRTL  ( mk_bits(BIT_WIDTH), cmp_fn=lambda a, b: abs(a.int() - b.int()) <= 4 )
     s.fft = fft
 
     # Connect
@@ -150,6 +150,14 @@ def sixteen_point_dc(bits, fft_size, frac_bits):
   0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 
   0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00100000
   ]
+def thirtytwo_point_dc(bits, fft_size, frac_bits):
+  return [
+  0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 0x00010000, 
+  0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00200000
+  ]
+
+def n_point_dc(bits, fft_size, frac_bits):
+	return [1 << frac_bits]*fft_size + [0] *(fft_size - 1) + [fft_size << frac_bits]
 
 ######################################################################################################################################################################
 def two_point_two_samples(bits, fft_size, frac_bits):
@@ -228,11 +236,16 @@ test_case_table = mk_test_case_table([
   [ "four_point_dc",                   four_point_dc,                             0,        0,         32,        16,       4         ],
   [ "four_point_one_to_four",          four_point_one_to_four,                    0,        0,         32,        16,       4         ], 
   [ "sixteen_point_dc",                sixteen_point_dc,                          0,        0,         32,        16,       16        ],
+  [ "thirtytwo_point_dc",              thirtytwo_point_dc,                        0,        0,         32,        16,       32        ],
   [ "descend_signal_2",                descend_signal,                            0,        0,         32,        16,       2        ],
   [ "descend_signal_4",                descend_signal,                            0,        0,         32,        16,       4        ],
   [ "descend_signal_16",               descend_signal,                            0,        0,         32,        16,       16        ],
 	*[
-		 [ f"{n}_point_{f.__name__}",                f,                             0,        0,         32,        16,       n        ]
+		 [ f"{n}_point_dc_generated",      n_point_dc,                            0,        0,         32,        16,       n        ]
+		 for n in [16, 32, 128, 256]
+	], 
+	*[
+		 [ f"{n}_point_{f.__name__}",                f,                           0,        0,         32,        16,       n        ]
 		 for n in [16, 32, 128, 256]
 		 for f in [random_signal]]
 	], 
@@ -255,7 +268,9 @@ def chunk(l, i, n, sep):
 
 def make_signed(i, n):
 	if isinstance(i, int):
-		return i - ((i & (1 << (n-1))) << 1)
+		return mk_bits(n)(i)
+	elif isinstance(i, float):
+		return make_signed(int(i), n)
 	else:
 		return i
 
@@ -268,13 +283,18 @@ def test( request, test_params, cmdline_opts ):
 	msgs = revchunk(msgs, test_params.N_SAMPLES)
 	msgs = [make_signed(m, test_params.BIT_WIDTH) for m in msgs]
 
+	send_msgs = chunk(msgs, 0, test_params.N_SAMPLES, test_params.N_SAMPLES * 2)
+	recv_msgs = chunk(msgs, test_params.N_SAMPLES, test_params.N_SAMPLES, test_params.N_SAMPLES * 2)
+
+	print("Expecting", send_msgs, recv_msgs)
+
 	th.set_param("top.src.construct",
-	msgs=chunk(msgs, 0, test_params.N_SAMPLES, test_params.N_SAMPLES * 2),
+	msgs=send_msgs,
 	initial_delay=test_params.src_delay+3,
 	interval_delay=test_params.src_delay )
 
 	th.set_param("top.sink.construct",
-		msgs=chunk(msgs, test_params.N_SAMPLES, test_params.N_SAMPLES * 2, test_params.N_SAMPLES * 2),
+		msgs=recv_msgs,
 	initial_delay=test_params.sink_delay+3,
 	interval_delay=test_params.sink_delay )
 

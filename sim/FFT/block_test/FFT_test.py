@@ -30,7 +30,7 @@ class TestHarness( Component ):
     # Instantiate models
 
     s.src  = stream.SourceRTL( mk_bits(BIT_WIDTH) )
-    s.sink = stream.SinkRTL  ( mk_bits(BIT_WIDTH), cmp_fn=lambda a, b: abs(a.int() - b.int()) <= 4 )
+    s.sink = stream.SinkRTL  ( mk_bits(BIT_WIDTH), cmp_fn=lambda a, b: abs(a.int() - b.int()) <= (1 << (DECIMAL_PT // 2)) )
     s.fft = fft
 
     # Connect
@@ -184,8 +184,6 @@ def random_signal(bits, fft_size, frac_bits):
   smax = min(2**(bits-1), 20*2**frac_bits)
   for i in range(fft_size):
     signal.append(math.trunc(random.uniform(-smax,smax)))
-
-  
 
   return fft_call_response( signal, bits, fft_size)
 

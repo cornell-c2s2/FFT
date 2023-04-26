@@ -1,5 +1,9 @@
-`include "FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/TwiddleGeneratorVRTL.v"
-`include "FFT-Crossbar/sim/CombinationalFFTCrossbar/CombinationalFFTCrossbarVRTL.v"
+
+`ifndef FFT_STAGE_VRTL
+`define FFT_STAGE_VRTL
+
+`include "../../../FFT/sim/FFT/FFT-Twiddle_Generator/sim/FFTTwiddleGenerator/TwiddleGeneratorVRTL.v"
+`include "../../../FFT/sim/FFT/FFT-Crossbar/sim/CombinationalFFTCrossbar/CombinationalFFTCrossbarVRTL.v"
 `include "../../../butterfly-unit/sim/butterfly/ButterflyVRTL.v"
 
 
@@ -130,3 +134,5 @@ module FFT_StageVRTL
 		end
 	end
 endmodule
+
+`endif

@@ -32,8 +32,8 @@ class FFTStageTestHarnessVRTL( VerilogPlaceholder, Component ):
 
     
 
-    s.recv = stream.ifcs.RecvIfcRTL( mk_bits(2 * BIT_WIDTH * N_SAMPLES) )
-    s.send = stream.ifcs.SendIfcRTL( mk_bits(2 * BIT_WIDTH * N_SAMPLES) )
+    s.recv = stream.ifcs.RecvIfcRTL( mk_bits( BIT_WIDTH ) )
+    s.send = stream.ifcs.SendIfcRTL( mk_bits( BIT_WIDTH ) )
 
 # See if the course staff want to force testing a specific RTL language
 # for their own testing.

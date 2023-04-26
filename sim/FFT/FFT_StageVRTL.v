@@ -32,7 +32,6 @@ module FFT_StageVRTL
         input  logic                   clk
     );
 
-
     logic                   val_in         [N_SAMPLES - 1:0];
     logic                   rdy_in         [N_SAMPLES - 1:0];
 
@@ -40,16 +39,14 @@ module FFT_StageVRTL
     logic                   rdy_out        [N_SAMPLES - 1:0];
 
     logic [N_SAMPLES - 1:0] imm;
-    always @(*) begin
-        int i;
+	generate
+        genvar i;
         for(i = 0; i < N_SAMPLES; i++) begin
-
-            
-            val_in[i] = recv_val;
-            imm[i] = rdy_in[i];
+            assign val_in[i] = recv_val;
+            assign imm[i] = rdy_in[i];
         end
-        recv_rdy = &imm;
-    end
+        assign recv_rdy = (imm == {N_SAMPLES{1'b1}});
+    endgenerate
 
     
     logic [BIT_WIDTH - 1:0] butterfly_in_real       [N_SAMPLES - 1:0];
@@ -76,10 +73,10 @@ module FFT_StageVRTL
         genvar b;    
         for( b = 0; b < N_SAMPLES/2; b++) begin
 			localparam IX =
-				(b%(2**STAGE_FFT))*(N_SAMPLES/(2*(2**STAGE_FFT)));
+				(b%(1<<STAGE_FFT))*(N_SAMPLES/(2*(1<<STAGE_FFT)));
 
 			localparam MMC =
-				((IX==0)? 1 : (IX==N_SAMPLES/2)? 2 : (IX==N_SAMPLES/4)? 4 : (IX==3*N_SAMPLES/4)? 3 : 0);
+				((IX==0)? 1 : (IX==N_SAMPLES>>1)? 2 : (IX==N_SAMPLES>>2)? 4 : (IX==3*(N_SAMPLES>>2))? 3 : 0);
 
             ButterflyVRTL #( .n(BIT_WIDTH), .d(DECIMAL_PT) ,
 			.mult(MMC)) bfu_in ( .ar(butterfly_in_real[ b * 2     ]), .ac(butterfly_in_imaginary[ b * 2     ]), 
@@ -111,28 +108,13 @@ module FFT_StageVRTL
     TwiddleGeneratorVRTL #( .BIT_WIDTH(BIT_WIDTH), .DECIMAL_PT(DECIMAL_PT), .SIZE_FFT(N_SAMPLES), .STAGE_FFT(STAGE_FFT) ) twiddle_generator ( .sine_wave_in(sine_wave_out), .twiddle_real(twiddle_real), .twiddle_imaginary(twiddle_imaginary) );
     
     logic [N_SAMPLES - 1:0] imm2;
-	logic imm2reset;
-    always @(*) begin
-        int i;
+	generate
         for (i = 0; i < N_SAMPLES; i++) begin
-			imm2[i] = val_out[i];
-//            imm2[i] = ~imm2reset & (imm2[i] | val_out[i]);
-            rdy_out[i] = send_rdy;
-
+			assign imm2[i] = val_out[i];
+            assign rdy_out[i] = send_rdy & send_val;
         end
-        send_val = &imm2;
-    end
-
-	always @(posedge clk) begin
-		int i;
-		for (i = 0; i < N_SAMPLES; i++) begin
-			if (send_val & send_rdy) begin
-				imm2reset <= 1;
-			end else begin
-				imm2reset <= 0;
-			end
-		end
-	end
+        assign send_val = (imm2 == {N_SAMPLES{1'b1}});
+	endgenerate
 endmodule
 
 `endif

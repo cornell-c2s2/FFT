@@ -22,20 +22,23 @@ class FFTTestHarnessVRTL( VerilogPlaceholder, Component ):
 
   # Constructor
 
-  def construct( s, BIT_WIDTH = 32, DECIMAL_PT = 16, N_SAMPLES = 8):
+	def construct( s, BIT_WIDTH = 32, DECIMAL_PT = 16, N_SAMPLES = 8):
 
-    # If translated into Verilog, we use the explicit name
+		# If translated into Verilog, we use the explicit name
 
-    s.set_metadata( VerilogTranslationPass.explicit_module_name, f'CombinationalFFT_{BIT_WIDTH}_{DECIMAL_PT}_{N_SAMPLES}' )
-    s.set_metadata( VerilogVerilatorImportPass.vl_trace_max_array, max(32, N_SAMPLES) )
-    s.set_metadata( VerilogVerilatorImportPass.vl_trace_max_width, max(256, BIT_WIDTH) )
+		s.set_metadata( VerilogTranslationPass.explicit_module_name, f'CombinationalFFT_{BIT_WIDTH}_{DECIMAL_PT}_{N_SAMPLES}' )
+		try:
+			s.set_metadata( VerilogVerilatorImportPass.vl_trace_max_array, max(32, N_SAMPLES) )
+			s.set_metadata( VerilogVerilatorImportPass.vl_trace_max_width, max(256, BIT_WIDTH) )
+		except AttributeError:
+			pass
 
-    # Interface
+		# Interface
 
-    
+		
 
-    s.recv = stream.ifcs.RecvIfcRTL( mk_bits(BIT_WIDTH) )
-    s.send = stream.ifcs.SendIfcRTL( mk_bits(BIT_WIDTH) )
+		s.recv = stream.ifcs.RecvIfcRTL( mk_bits(BIT_WIDTH) )
+		s.send = stream.ifcs.SendIfcRTL( mk_bits(BIT_WIDTH) )
 
 # See if the course staff want to force testing a specific RTL language
 # for their own testing.
